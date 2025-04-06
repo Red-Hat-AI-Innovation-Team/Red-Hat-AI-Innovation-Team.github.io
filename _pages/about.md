@@ -7,7 +7,7 @@ image: '/images/group.jpg'
 
 ## AI Innovation Team
 
-We are an AI research team at Red Hat and IBM, dedicated to fostering an inclusive and accessible open-source AI community. 
+We are an AI research team at Red Hat with collaborators from MIT, UMass, and IBM, dedicated to fostering an inclusive and accessible open-source AI community. 
 Our goal is to empower individuals to collaborate in advancing the future of LLMs and generative models.
 
 ### Team Members
