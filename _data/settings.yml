@@ -52,7 +52,7 @@ portfolio:
     - image: /images/gallery-04.jpg
       title: SQuat
       link: https://github.com/Red-Hat-AI-Innovation-Team/SQuat
-      description: description goes here
+      description: KV cache quantization for scaling inference time
 
     - image: /images/gallery-05.jpg
       title: orthogonal-subspace-learning
