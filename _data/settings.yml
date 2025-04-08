@@ -54,10 +54,10 @@ portfolio:
       link: https://github.com/Red-Hat-AI-Innovation-Team/SQuat
       description: KV cache quantization for scaling inference time
 
-    - image: /images/gallery-05.jpg
+    - image: /images/osl.png
       title: orthogonal-subspace-learning
       link: https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning
-      description: description goes here
+      description: Adaptive SVD-based continual fine-tuning method for LLMs with negligible catastrophic forgetting.
 
     - image: /images/logo-its-white_bg-v2.png
       title: probabilistic-inference-scaling
