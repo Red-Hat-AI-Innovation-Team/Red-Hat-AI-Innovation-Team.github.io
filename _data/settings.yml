@@ -59,7 +59,7 @@ portfolio:
       link: https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning
       description: description goes here
 
-    - image: /images/gallery-06.jpg
+    - image: /images/logo-its-white_bg.jpg
       title: probabilistic-inference-scaling
       link: https://github.com/probabilistic-inference-scaling/probabilistic-inference-scaling
       description: Inference-time scaling with particle filtering.
