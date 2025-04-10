@@ -4,6 +4,7 @@ gem "bundler"
 gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
+gem "jekyll-katex"
 
 gem "html-proofer", "~> 5.0", group: :test
 
