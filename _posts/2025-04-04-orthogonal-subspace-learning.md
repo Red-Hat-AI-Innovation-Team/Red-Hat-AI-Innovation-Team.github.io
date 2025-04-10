@@ -155,9 +155,9 @@ We sort singular values in descending order. This separates directions into two 
 
 But not all layers are created equal. Some layers predominantly pass information through the model, while others significantly transform it. Inspired by [AdaSVD](https://www.arxiv.org/abs/2502.01403), we calculate the importance of each layer dynamically by measuring how much a layer transforms its input to output activations:
 
-```math
+$$
 I^{(l)} = \frac{1}{N} \sum_{i=1}^{N} \text{cosine\_similarity}\bigl(\mathbf{X}_i^{(l)}, \mathbf{Y}_i^{(l)}\bigr)
-```
+$$
 
 - If inputs and outputs are highly similar, this layer mostly preserves information and thus should retain more singular vectors.
 - If they’re dissimilar, it may indicate that the layer squashes input in certain directions effectively making it low-rank, so these directions can be repurposed for learning new tasks.
@@ -181,9 +181,9 @@ Here:
 
 Finally, when updating model parameters, we ensure that updates remain completely orthogonal (at right angles) to the high-rank subspace. This crucial step prevents accidental overwriting of important previous knowledge:
 
-```math
+$$
 \nabla \mathbf{W}^{(l)}_{\mathrm{proj}} = \nabla \mathbf{W}^{(l)} - \mathbf{U}^{(l)}_{\text{high}}(\mathbf{U}^{(l)}_{\text{high}})^\top \nabla \mathbf{W}^{(l)} \mathbf{V}^{(l)}_{\text{high}}(\mathbf{V}^{(l)}_{\text{high}})^\top
-```
+$$
 
 By projecting gradients this way, we guarantee that every update for a new task is safely confined to the unused low-rank subspace, leaving the model’s previous knowledge intact. Leveraging the internal geometry of LLM parameters, we efficiently balance stability and adaptability, opening the door for genuinely lifelong learning in real-world deployments.
 
