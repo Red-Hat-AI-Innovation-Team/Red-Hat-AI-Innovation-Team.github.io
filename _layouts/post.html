@@ -45,6 +45,24 @@ layout: default
       {{ content }}
     </div>
 
+    <!-- Begin MathJax configuration -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+    <!-- End MathJax configuration -->
+
     <div class="post__share">
       <ul class="share__list list-reset">
         <li class="share__item">
