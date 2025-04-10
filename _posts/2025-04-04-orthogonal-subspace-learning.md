@@ -156,7 +156,7 @@ We sort singular values in descending order. This separates directions into two 
 But not all layers are created equal. Some layers predominantly pass information through the model, while others significantly transform it. Inspired by [AdaSVD](https://www.arxiv.org/abs/2502.01403), we calculate the importance of each layer dynamically by measuring how much a layer transforms its input to output activations:
 
 $$
-I^{(l)} = \frac{1}{N} \sum_{i=1}^{N} \text{cosine\_similarity}\bigl(\mathbf{X}_i^{(l)}, \mathbf{Y}_i^{(l)}\bigr)
+I^{(l)} = \frac{1}{N} \sum_{i=1}^{N} \text{cosine_similarity}\bigl(\mathbf{X}_i^{(l)}, \mathbf{Y}_i^{(l)}\bigr)
 $$
 
 - If inputs and outputs are highly similar, this layer mostly preserves information and thus should retain more singular vectors.
