@@ -351,7 +351,7 @@ Ultimately, our method bridges theory and practice, enabling enterprises to depl
 Thanks for joining us on this journey through our paper and approach. We're excited about what’s next, and we hope you are too!
 
 - 💻 **Code Repository**: [https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning](https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning)  
-- 📢 **Stay Updated**: Follow our latest research and updates at [https://red-hat-ai-innovation-team.github.io](https://red-hat-ai-innovation-team.github.io)
+- 📢 **Stay Updated**: Follow our latest research and updates at [https://ai-innovation.team](https://ai-innovation.team)
 
 ---
 
