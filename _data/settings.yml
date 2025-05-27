@@ -34,6 +34,11 @@ hero:
 portfolio:
   portfolio__title: LLM Toolkit
   portfolio__gallery:
+    - image: /images/logo-its-white_bg-v2.png
+      title: its_hub
+      link: https://github.com/Red-Hat-AI-Innovation-Team/its_hub
+      description: Inference-time scaling for LLMs.
+
     - image: /images/portfolio/sdg_hub.png
       title: sdg_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub
