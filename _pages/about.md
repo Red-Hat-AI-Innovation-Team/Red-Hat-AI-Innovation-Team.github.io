@@ -113,6 +113,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://www.linkedin.com/in/nikhil-na" target="_blank">Nikhil Nayak</a>
       </div>
     </div>
+
+        <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/giorgio.jpg" class="portfolio__link glightbox" data-glightbox='title: Giorgio Giannone; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/ligong.jpg" data-src="/images/about/ligong.jpg" class="portfolio__image lazy" alt="Picture of Giorgio Giannone">
+        </a>
+        <a href="https://georgosgeorgos.github.io/" target="_blank">Giorgio Giannone</a>
+      </div>
+    </div>
   </div>
 </div>
 
