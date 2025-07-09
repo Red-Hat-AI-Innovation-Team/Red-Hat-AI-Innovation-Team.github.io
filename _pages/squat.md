@@ -6,7 +6,7 @@ permalink: /squat/
 
 <style>
 .paper-container {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 20px;
   font-family: 'Times New Roman', serif;
@@ -98,7 +98,7 @@ permalink: /squat/
 
 .results-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   margin: 20px 0;
 }
@@ -139,10 +139,6 @@ permalink: /squat/
     font-size: 2em;
   }
   
-  .results-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .nav-links a {
     display: block;
     margin: 10px 0;
@@ -156,14 +152,14 @@ permalink: /squat/
   <div class="conference">COLM 2025</div>
   
   <div class="authors">
-    <span class="author-link">Hao Wang</span><sup>1,2</sup>
-    <span class="author-link">Ligong Han</span><sup>1,2</sup>
-    <span class="author-link">Kai Xu</span><sup>2</sup>
-    <span class="author-link">Akash Srivastava</span><sup>2</sup>
+    <span class="author-link">Hao Wang</span><sup>*,1</sup>
+    <span class="author-link">Ligong Han</span><sup>*,1</sup>
+    <span class="author-link">Kai Xu</span><sup>1</sup>
+    <span class="author-link">Akash Srivastava</span><sup>1</sup>
   </div>
   
   <div class="affiliations">
-    <sup>1</sup>Equal contribution <sup>2</sup>Red Hat AI Innovation
+    <sup>*</sup>Equal contribution <sup>1</sup>Red Hat AI Innovation
   </div>
   
   <div class="nav-links">
@@ -201,25 +197,14 @@ permalink: /squat/
     </div>
   </div>
   
-  <div class="section-box">
-    <h2 class="section-title">Key Contributions</h2>
-    <ul class="contributions-list">
-      <li><strong>Training-free approach:</strong> No need for calibration data or model retraining</li>
-      <li><strong>Theoretical foundation:</strong> Grounded in subspace orthogonality principles</li>
-      <li><strong>Significant efficiency gains:</strong> 2.17× to 2.82× memory reduction and 2.45× to 3.60× throughput improvement</li>
-      <li><strong>Superior performance:</strong> Outperforms existing KV cache quantization methods on standard benchmarks</li>
-    </ul>
-  </div>
   
   <div class="section-box" id="citation">
     <h2 class="section-title">Citation</h2>
-    <div class="citation-box">
-@inproceedings{wang2025squat,
-  title={SQuat: Subspace-orthogonal KV Cache Quantization},
-  author={Wang, Hao and Han, Ligong and Xu, Kai and Srivastava, Akash},
-  booktitle={Conference on Language Modeling},
-  year={2025}
-}
-    </div>
+    <pre><code>@inproceedings{wang2025squat,
+    title={SQuat: Subspace-orthogonal KV Cache Quantization},
+    author={Wang, Hao and Han, Ligong and Xu, Kai and Srivastava, Akash},
+    booktitle={Conference on Language Modeling},
+    year={2025}
+}</code></pre>
   </div>
 </div>
