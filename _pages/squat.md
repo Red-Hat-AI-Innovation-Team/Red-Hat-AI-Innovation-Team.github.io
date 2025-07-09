@@ -57,7 +57,7 @@ permalink: /squat/
 }
 
 .paper-container {
-  max-width: 75%;
+  max-width: 65%;
   margin: 0 auto;
   padding: 20px;
   font-family: 'Times New Roman', serif;
@@ -156,6 +156,10 @@ permalink: /squat/
   grid-template-columns: 1fr;
   gap: 20px;
   margin: 20px 0;
+}
+
+.result-item {
+  text-align: center;
 }
 
 .result-item img {
