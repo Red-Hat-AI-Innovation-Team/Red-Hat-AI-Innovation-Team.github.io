@@ -57,7 +57,7 @@ permalink: /squat/
 }
 
 .paper-container {
-  max-width: 2250px;
+  max-width: 75%;
   margin: 0 auto;
   padding: 20px;
   font-family: 'Times New Roman', serif;
