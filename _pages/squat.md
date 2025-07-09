@@ -5,6 +5,11 @@ permalink: /squat/
 ---
 
 <style>
+/* Hide the empty page title to remove extra margin */
+.page__info {
+  display: none !important;
+}
+
 /* Override theme container width for this page - target content area specifically */
 .content .container {
   max-width: none !important;
