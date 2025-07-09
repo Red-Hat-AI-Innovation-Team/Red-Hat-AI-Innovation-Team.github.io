@@ -5,6 +5,12 @@ permalink: /squat/
 ---
 
 <style>
+/* Override theme container width for this page */
+.container {
+  max-width: none !important;
+  width: 100% !important;
+}
+
 .paper-container {
   max-width: 2250px;
   margin: 0 auto;
