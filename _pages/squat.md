@@ -5,27 +5,37 @@ permalink: /squat/
 ---
 
 <style>
-/* Override theme container width for this page */
-.container {
+/* Override theme container width for this page - target content area specifically */
+.content .container {
   max-width: none !important;
   width: 100% !important;
 }
 
-/* Override all responsive breakpoints */
+.page__content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.page {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Override all responsive breakpoints for content containers */
 @media only screen and (max-width: 1140px) {
-  .container {
+  .content .container {
     max-width: none !important;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .container {
+  .content .container {
     max-width: none !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .container {
+  .content .container {
     max-width: none !important;
   }
   
@@ -36,7 +46,7 @@ permalink: /squat/
 }
 
 @media only screen and (max-width: 576px) {
-  .container {
+  .content .container {
     max-width: none !important;
   }
   
