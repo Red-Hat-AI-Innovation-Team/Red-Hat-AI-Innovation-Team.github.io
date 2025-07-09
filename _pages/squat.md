@@ -11,6 +11,41 @@ permalink: /squat/
   width: 100% !important;
 }
 
+/* Override all responsive breakpoints */
+@media only screen and (max-width: 1140px) {
+  .container {
+    max-width: none !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: none !important;
+  }
+  
+  .paper-container {
+    max-width: 100% !important;
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: none !important;
+  }
+  
+  .paper-container {
+    max-width: 100% !important;
+    padding: 10px !important;
+  }
+}
+
 .paper-container {
   max-width: 2250px;
   margin: 0 auto;
