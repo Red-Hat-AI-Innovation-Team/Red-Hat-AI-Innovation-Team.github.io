@@ -74,13 +74,13 @@ permalink: /squat/
   font-size: 2.5em;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
+  color: var(--heading-font-color);
 }
 
 .conference {
   text-align: center;
   font-size: 1.5em;
-  color: #666;
+  color: var(--text-alt-color);
   margin-bottom: 30px;
 }
 
@@ -114,33 +114,33 @@ permalink: /squat/
   display: inline-block;
   margin: 0 15px;
   padding: 10px 20px;
-  background-color: #f0f0f0;
-  border: 2px solid #ddd;
+  background-color: var(--background-alt-color);
+  border: 2px solid var(--border-color);
   border-radius: 5px;
   text-decoration: none;
-  color: #333;
+  color: var(--text-color);
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
-  background-color: #e0e0e0;
-  border-color: #bbb;
+  background-color: var(--background-color);
+  border-color: var(--border-color);
 }
 
 .section-box {
-  border: 2px solid #ddd;
+  border: 2px solid var(--border-color);
   border-radius: 10px;
   padding: 20px;
   margin: 30px 0;
-  background-color: #fafafa;
+  background-color: var(--background-alt-color);
 }
 
 .section-title {
   font-size: 1.8em;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #333;
+  color: var(--heading-font-color);
   text-align: center;
 }
 
@@ -208,6 +208,7 @@ permalink: /squat/
     margin: 10px 0;
   }
 }
+
 </style>
 
 <div class="paper-container">
