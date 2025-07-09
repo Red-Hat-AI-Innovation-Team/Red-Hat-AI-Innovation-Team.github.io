@@ -6,7 +6,7 @@ permalink: /squat/
 
 <style>
 .paper-container {
-  max-width: 1500px;
+  max-width: 2250px;
   margin: 0 auto;
   padding: 20px;
   font-family: 'Times New Roman', serif;
@@ -152,10 +152,10 @@ permalink: /squat/
   <div class="conference">COLM 2025</div>
   
   <div class="authors">
-    <span class="author-link">Hao Wang</span><sup>*,1</sup>
-    <span class="author-link">Ligong Han</span><sup>*,1</sup>
-    <span class="author-link">Kai Xu</span><sup>1</sup>
-    <span class="author-link">Akash Srivastava</span><sup>1</sup>
+    <a href="https://haowang94.github.io" target="_blank" class="author-link">Hao Wang</a><sup>*,1</sup>
+    <a href="https://phymhan.github.io" target="_blank" class="author-link">Ligong Han</a><sup>*,1</sup>
+    <a href="https://xuk.ai" target="_blank" class="author-link">Kai Xu</a><sup>1</sup>
+    <a href="https://akashgit.github.io" target="_blank" class="author-link">Akash Srivastava</a><sup>1</sup>
   </div>
   
   <div class="affiliations">
