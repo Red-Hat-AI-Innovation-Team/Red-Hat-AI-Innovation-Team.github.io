@@ -2,7 +2,6 @@
 layout: page
 title: SQuat
 permalink: /squat/
-image: '/images/squat/kvcache.png'
 ---
 
 <style>
