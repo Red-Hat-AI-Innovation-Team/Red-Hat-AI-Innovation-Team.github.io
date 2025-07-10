@@ -123,6 +123,36 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://georgosgeorgos.github.io/" target="_blank">Giorgio Giannone</a>
       </div>
     </div>
+
+                <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/oleg.jpg" class="portfolio__link glightbox" data-glightbox='title: oleg silkin; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/oleg.jpg" data-src="/images/about/oleg.jpg" class="portfolio__image lazy" alt="Picture of Oleg Silkin">
+        </a>
+        <a href="https://www.olegsilkin.com/" target="_blank">Oleg Silkin</a>,<br>Red Hat
+      </div>
+    </div>
+
+        <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/eshwar.jpg" class="portfolio__link glightbox" data-glightbox='title: Eshwar Sivaramakrishnan ; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/eshwar.jpg" data-src="/images/about/eshwar.jpg" class="portfolio__image lazy" alt="Picture of Eshwar Sivaramakrishnan">
+        </a>
+        <a href="https://github.com/eshwarprasadS" target="_blank">Eshwar Sivaramakrishnan</a>,<br>Red Hat
+      </div>
+    </div>
+
+            <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/rohan.jpg" class="portfolio__link glightbox" data-glightbox='title: Rohan Awhad; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/rohan.jpg" data-src="/images/about/rohan.jpg" class="portfolio__image lazy" alt="Picture of Rohan Awhad">
+        </a>
+        <a href="https://x.com/rohanawhad" target="_blank">Rohan Awhad</a>,<br>Red Hat
+      </div>
+    </div>
   </div>
 </div>
 
@@ -138,17 +168,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/luke.jpg" data-src="/images/about/luke.jpg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
         </a>
-        <a href="https://mitibmwatsonailab.mit.edu/people/luke-inglis/" target="_blank">Luke Inglis</a>,<br>Red Hat
-      </div>
-    </div>
-
-    <div class="col col-3 col-d-6 col-t-12">
-      <div>
-        <a href="/images/about/oleg.jpg" class="portfolio__link glightbox" data-glightbox='title: Oleg Silkin; description: ; descPosition: bottom;'>
-          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/oleg.jpg" data-src="/images/about/oleg.jpg" class="portfolio__image lazy" alt="Picture of Oleg Silkin">
-        </a>
-        <a href="https://www.olegsilkin.com" target="_blank">Oleg Silkin</a>,<br>Red Hat
+        <a href="https://www.linkedin.com/in/luke-inglis/" target="_blank">Luke Inglis</a>,<br>Red Hat
       </div>
     </div>
 
@@ -179,6 +199,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/wenlong.jpg" data-src="/images/about/wenlong.jpg" class="portfolio__image lazy" alt="Picture of Wenlong Zhao">
         </a>
         <a href="https://wenlongzhao094.github.io" target="_blank">Wenlong Zhao</a>,<br>UMass Amherst
+      </div>
+    </div>
+
+        <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/shuhang.jpg" class="portfolio__link glightbox" data-glightbox='title: Shuhang Lin; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/shuhang.jpg" data-src="/images/about/shuhang.jpg" class="portfolio__image lazy" alt="Picture of Shuhang Lin">
+        </a>
+        <a href="https://www.linkedin.com/in/shuhang-lin-818856198/" target="_blank">Shuhang Lin</a>,<br>Rutgers University
       </div>
     </div>
 
