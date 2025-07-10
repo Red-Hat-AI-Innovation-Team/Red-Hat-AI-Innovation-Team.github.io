@@ -90,14 +90,6 @@ permalink: /squat/
   margin-bottom: 10px;
 }
 
-.author-link {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-.author-link:hover {
-  text-decoration: underline;
-}
 
 .affiliations {
   text-align: center;
