@@ -126,9 +126,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
                 <div class="col col-3 col-d-6 col-t-12">
       <div>
-        <a href="/images/about/oleg.jpg" class="portfolio__link glightbox" data-glightbox='title: oleg silkin; description: ; descPosition: bottom;'>
+        <a href="/images/about/oleg.jpeg" class="portfolio__link glightbox" data-glightbox='title: oleg silkin; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/oleg.jpg" data-src="/images/about/oleg.jpg" class="portfolio__image lazy" alt="Picture of Oleg Silkin">
+          <img src="/images/about/oleg.jpeg" data-src="/images/about/oleg.jpeg" class="portfolio__image lazy" alt="Picture of Oleg Silkin">
         </a>
         <a href="https://www.olegsilkin.com/" target="_blank">Oleg Silkin</a>,<br>Red Hat
       </div>
