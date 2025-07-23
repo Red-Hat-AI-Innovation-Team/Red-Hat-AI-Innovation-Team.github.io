@@ -4,73 +4,64 @@ title: Videos
 permalink: /videos/
 ---
 
-## Random Samples
+## 🎥 Random Samples
 
-Random samples is a weekly seminar series that airs live on our Red Hat YouTube page.
+Random Samples is a weekly seminar series that airs live on our Red Hat YouTube page.
 
 <div class="video-grid">
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/ddnRm-OHm1k?si=VN4JLkyEEXaawE0c" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Grounding Feedback is All You Need: Aligning Small Vision-Language Models</div>
-    <div class="video-speakers">Speaker: Giorgio Giannone
+    <p><strong>📹 Grounding Feedback is All You Need: Aligning Small Vision-Language Models</strong><br>👤 Speaker: Giorgio Giannone</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/qenmyHH87es?si=iOoAhJfK5Ktux6T8" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">On scalable RL in the era of agentic LLMs</div>
-    <div class="video-speakers">Speaker: Aldo Pareja</div>
+    <p><strong>📹 On scalable RL in the era of agentic LLMs</strong><br>👤 Speaker: Aldo Pareja</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/7bpANF68hNE?si=_62Vqz5gHt5VI_z4" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">LLM Meets Cache: From Application to Architecture</div>
-    <div class="video-speakers">Speaker: Shuhang Lin </div>
+    <p><strong>📹 LLM Meets Cache: From Application to Architecture</strong><br>👤 Speaker: Shuhang Lin</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/Rzq3Cs_fpoI?si=tgmfWOLh0j3dDjXF" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Accelerating LLM Knowledge Learning and Unlearning Research via Unified Frameworks</div>
-    <div class="video-speakers">Speaker: Wenlong Zhao</div>
+    <p><strong>📹 Accelerating LLM Knowledge Learning and Unlearning Research via Unified Frameworks</strong><br>👤 Speaker: Wenlong Zhao</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/6LYnnCF06Y4?si=Z5l0Bak4Nx6ffDnG" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Towards Combinatorial Interpretability of Neural Computation</div>
-    <div class="video-speakers">Speaker: Nir Shavit</div>
+    <p><strong>📹 Towards Combinatorial Interpretability of Neural Computation</strong><br>👤 Speaker: Nir Shavit</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/aGKCViWjAmA?si=fymOzWq9bwDksJuT" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Synthetic Data Generation via SDG-Hub</div>
-    <div class="video-speakers">Speakers: Abhishek Bhandwaldar, Shivchander Sudalairaj, Akash Srivastava</div>
+    <p><strong>📹 Synthetic Data Generation via SDG-Hub</strong><br>👥 Speakers: Abhishek Bhandwaldar, Shivchander Sudalairaj, Akash Srivastava</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/A5Eg1RZK3oE?si=AdhBuX7Q0h1lpqNH" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Continual Post-Training</div>
-    <div class="video-speakers">Speakers: Nikhil Nayak, Krishnateja Killamsetty</div>
+    <p><strong>📹 Continual Post-Training</strong><br>👥 Speakers: Nikhil Nayak, Krishnateja Killamsetty</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/T8XDkZuv7O4?si=_AZVC_fy5t0d4bOr" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">State of LLM Compression from Research to Production</div>
-    <div class="video-speakers">Speaker: Mark Kurtz </div>
+    <p><strong>📹 State of LLM Compression from Research to Production</strong><br>👤 Speaker: Mark Kurtz</p>
   </div>
 </div>
 
-## No Math AI
+---
 
-No Math AI is a monthly podcast designed for the AI community and enthusiasts who want to better understand how AI research translates into real-world business impact without the complex equations.
+## 🎙️ No Math AI
 
-Hosted by Dr. Akash Srivastava, the lead of Red Hat's AI Innovation team, and Isha Puri, AI PhD student at MIT, this series distills critical AI concepts into practical takeaways. Each episode unpacks cutting-edge research and translates it into actionable insights that help practitioners, businesses, and curious minds accelerate their adoption of AI with confidence.
+No Math AI is a monthly podcast designed for the AI community and enthusiasts who want to better understand how AI research translates into real-world business impact—without the complex equations.
+
+Hosted by Dr. Akash Srivastava (Red Hat) and Isha Puri (MIT), this series distills critical AI concepts into practical takeaways to help practitioners, businesses, and curious minds accelerate adoption with confidence.
 
 <div class="video-grid">
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/mj1dwrPfvb4?si=6ghEXRoag8s16MRO" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Inference Time Scaling for Enterprises</div>
-    <div class="video-speakers">Guests: Matt Hicks, Red Hat CEO, and Chris Wright, Red Hat CTO</div>
+    <p><strong>📹 Inference Time Scaling for Enterprises</strong><br>👥 Guests: Matt Hicks (Red Hat CEO), Chris Wright (Red Hat CTO)</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/rGve4qQj1-s?si=RqttVWC9GL7b51Lt" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Generative Optimization in Engineering Design</div>
-    <div class="video-speakers">Guest: Dr. Faez Ahmed</div>
+    <p><strong>📹 Generative Optimization in Engineering Design</strong><br>👤 Guest: Dr. Faez Ahmed</p>
   </div>
   <div class="video-item">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/QEDGOEJxQk4?si=TbHPJpAWN9SbzkKn" frameborder="0" allowfullscreen></iframe>
-    <div class="video-title">Inference-time scaling: How small models beat the big ones</div>
-    <div class="video-speakers">Guests: Shivchander Sudalairaj, GX Xu, Kai Xu</div>
+    <p><strong>📹 Inference-time scaling: How small models beat the big ones</strong><br>👥 Guests: Shivchander Sudalairaj, GX Xu, Kai Xu</p>
   </div>
 </div>
