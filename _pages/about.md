@@ -7,7 +7,7 @@ image: '/images/group.jpg'
 
 ## AI Innovation Team
 
-We are an AI research team at Red Hat with collaborators from MIT, UMass, and IBM, dedicated to fostering an inclusive and accessible open-source AI community. 
+We are an AI research team at Red Hat and IBM with collaborators from MIT, UMass, and IBM, dedicated to fostering an inclusive and accessible open-source AI community. 
 Our goal is to empower individuals to collaborate in advancing the future of LLMs and generative models.
 
 ### Team Members
@@ -24,13 +24,13 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
       </div>
     </div>
 
-    <div class="col col-3 col-d-6 col-t-12">
+        <div class="col col-3 col-d-6 col-t-12">
       <div>
-        <a href="/images/about/aldo.jpg" class="portfolio__link glightbox" data-glightbox='title: Aldo Pareja; description: ; descPosition: bottom;'>
+        <a href="/images/about/kai-with-cookie-sq.png" class="portfolio__link glightbox" data-glightbox='title: Kai Xu; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/aldo.jpg" data-src="/images/about/aldo.jpg" class="portfolio__image lazy" alt="Picture of Aldo Pareja">
+          <img src="/images/about/kai-with-cookie-sq.png" data-src="/images/about/kai-with-cookie-sq.png" class="portfolio__image lazy" alt="Picture of Kai Xu">
         </a>
-        <a href="https://scholar.google.com/citations?user=Qpl3KlIAAAAJ&hl=en" target="_blank">Aldo Pareja</a>
+        <a href="https://xuk.ai" target="_blank">Kai Xu</a>
       </div>
     </div>
 
@@ -51,16 +51,6 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/hao.jpg" data-src="/images/about/hao.jpg" class="portfolio__image lazy" alt="Picture of Hao Wang">
         </a>
         <a href="https://haowang94.github.io" target="_blank">Hao Wang</a>
-      </div>
-    </div>
-
-    <div class="col col-3 col-d-6 col-t-12">
-      <div>
-        <a href="/images/about/kai-with-cookie-sq.png" class="portfolio__link glightbox" data-glightbox='title: Kai Xu; description: ; descPosition: bottom;'>
-          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/kai-with-cookie-sq.png" data-src="/images/about/kai-with-cookie-sq.png" class="portfolio__image lazy" alt="Picture of Kai Xu">
-        </a>
-        <a href="https://xuk.ai" target="_blank">Kai Xu</a>
       </div>
     </div>
 
@@ -130,7 +120,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/oleg.jpeg" data-src="/images/about/oleg.jpeg" class="portfolio__image lazy" alt="Picture of Oleg Silkin">
         </a>
-        <a href="https://www.olegsilkin.com/" target="_blank">Oleg Silkin</a>,<br>Red Hat
+        <a href="https://www.olegsilkin.com/" target="_blank">Oleg Silkin</a>
       </div>
     </div>
 
@@ -140,7 +130,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/eshwar.jpg" data-src="/images/about/eshwar.jpg" class="portfolio__image lazy" alt="Picture of Eshwar Sivaramakrishnan">
         </a>
-        <a href="https://github.com/eshwarprasadS" target="_blank">Eshwar Sivaramakrishnan</a>,<br>Red Hat
+        <a href="https://github.com/eshwarprasadS" target="_blank">Eshwar Sivaramakrishnan</a>
       </div>
     </div>
 
@@ -150,7 +140,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/rohan.jpg" data-src="/images/about/rohan.jpg" class="portfolio__image lazy" alt="Picture of Rohan Awhad">
         </a>
-        <a href="https://x.com/rohanawhad" target="_blank">Rohan Awhad</a>,<br>Red Hat
+        <a href="https://x.com/rohanawhad" target="_blank">Rohan Awhad</a>
       </div>
     </div>
   </div>
@@ -169,6 +159,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/luke.jpg" data-src="/images/about/luke.jpg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
         </a>
         <a href="https://www.linkedin.com/in/luke-inglis/" target="_blank">Luke Inglis</a>,<br>Red Hat
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/aldo.jpg" class="portfolio__link glightbox" data-glightbox='title: Aldo Pareja; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/aldo.jpg" data-src="/images/about/aldo.jpg" class="portfolio__image lazy" alt="Picture of Aldo Pareja">
+        </a>
+        <a href="https://scholar.google.com/citations?user=Qpl3KlIAAAAJ&hl=en" target="_blank">Aldo Pareja</a>,<br> 
       </div>
     </div>
 
