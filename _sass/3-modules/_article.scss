@@ -84,6 +84,21 @@
   height: 170px;
   box-sizing: border-box;
 }
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.video-title {
+  font-weight: bold;
+  margin-top: 8px;
+}
+.video-speakers {
+  font-size: 0.95em;
+  color: #666;
+  margin-top: 2px;
+}
 @media (max-width: 900px) {
   .video-grid {
     grid-template-columns: repeat(2, 1fr);
