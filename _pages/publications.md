@@ -39,7 +39,7 @@ For more, visit our [About](/about/) page to find individual team member profile
   <summary>View Abstract</summary>
   The key-value (KV) cache accelerates LLMs decoding by storing KV tensors from previously generated tokens. It reduces redundant computation at the cost of increased memory usage. To mitigate this overhead, existing approaches compress KV tensors into lower-bit representations; however, quantization errors can accumulate as more tokens are generated, potentially resulting in undesired outputs. In this paper, we introduce SQuat (Subspace-orthogonal KV cache quantization). It first constructs a subspace spanned by query tensors to capture the most critical task-related information. During key tensor quantization, it enforces that the difference between the (de)quantized and original keys remains orthogonal to this subspace, minimizing the impact of quantization errors on the attention mechanism's outputs. SQuat requires no model fine-tuning, no additional calibration dataset for offline learning, and is grounded in a theoretical framework we develop. Through numerical experiments, we show that our method reduces peak memory by 2.17 to 2.82, improves throughput by 2.45 to 3.60, and achieves more favorable benchmark scores than existing KV cache quantization algorithms.
 </details>
-<strong><a href="https://arxiv.org/abs/2503.24358">📄 Arxiv</a> | <a href="https://ai-innovation.team/squat/">🌐 Website</a></strong><br>
+<strong><a href="https://arxiv.org/abs/2503.24358">📄 Arxiv</a> | <a href="https://ai-innovation.team/blog/orthogonal-subspace-learning">📝 Blog</a></strong><br>
 <strong>Date:</strong> 2025-03-31
 </div>
 
