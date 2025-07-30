@@ -109,3 +109,37 @@
     grid-template-columns: 1fr;
   }
 }
+
+.publication-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafbfc;
+  padding: 1.2em 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  transition: box-shadow 0.2s;
+}
+.publication-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.publication-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.15em;
+}
+.publication-card strong {
+  font-weight: 600;
+}
+.publication-card details {
+  margin-top: 0.7em;
+  font-size: 0.97em;
+  background: #f5f7fa;
+  border-radius: 4px;
+  padding: 0.5em 0.8em;
+}
+.publication-card summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #2a5d9f;
+  margin-bottom: 0.3em;
+}

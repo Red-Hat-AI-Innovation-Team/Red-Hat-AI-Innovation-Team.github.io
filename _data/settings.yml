@@ -14,6 +14,8 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Publications'
+      url: '/publications/'
     - title: 'Videos'
       url: '/videos/'
     - title: 'About'
