@@ -117,10 +117,12 @@
   padding: 1.2em 1.5em;
   margin-bottom: 1.5em;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-  transition: box-shadow 0.2s;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 .publication-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  transform: translateY(-4px) scale(1.02);
 }
 .publication-card h3 {
   margin-top: 0;
