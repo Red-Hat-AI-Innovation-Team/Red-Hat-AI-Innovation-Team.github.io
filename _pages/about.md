@@ -13,7 +13,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 ### Team Members
 
 <div class="container">
-  <div class="row people-cards">
+  <div class="row">
     <div class="col col-3 col-d-6 col-t-12">
       <div>
         <a href="/images/about/akash.jpg" class="portfolio__link glightbox" data-glightbox='title: Akash Srivastava; description: ; descPosition: bottom;'>
@@ -163,7 +163,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 ### Collaborators
 
 <div class="container">
-  <div class="row people-cards">
+  <div class="row">
     <div class="col col-3 col-d-6 col-t-12">
       <div>
         <a href="/images/about/Luke.jpeg" class="portfolio__link glightbox" data-glightbox='title: Luke Inglis; description: ; descPosition: bottom;'>
