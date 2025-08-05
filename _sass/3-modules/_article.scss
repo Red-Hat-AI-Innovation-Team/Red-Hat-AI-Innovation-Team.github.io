@@ -185,3 +185,31 @@
 .video-card .spotify-link:hover {
   text-decoration: underline;
 }
+
+/* People Cards (About Page) */
+.people-cards .col > div {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafbfc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.people-cards .col > div:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.people-cards .portfolio__image {
+  border-radius: 8px 8px 0 0;
+}
+
+.people-cards a:last-child {
+  display: block;
+  margin-top: 0.6em;
+  font-weight: 600;
+}
