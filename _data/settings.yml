@@ -29,8 +29,8 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Advancing AI Innovation Through Open-Source Research
-  hero__description: We're a collective of AI researchers and engineers from Red Hat and IBM. Explore our open-source contributions that are shaping the future of AI.
+  hero__title: Open-source AI for accurate, efficient LLMs
+  hero__description:  A collective of researchers and engineers from Red Hat & IBM building LLM toolkits you can use today. 
 
 
 #-------------------------------
