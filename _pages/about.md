@@ -156,7 +156,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
   </div>
 </div>
 
-<br>
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/about/team.jpg" alt="AI Innovation Team Photo" style="max-width: 100%; height: auto; border-radius: 8px;">
+</div>
 
 ### Collaborators
 
