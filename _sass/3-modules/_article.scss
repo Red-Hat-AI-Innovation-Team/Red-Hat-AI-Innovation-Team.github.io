@@ -194,7 +194,7 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   cursor: pointer;
-  overflow: hidden;
+  overflow: visible;
   text-align: center;
   padding-bottom: 1em;
 }
@@ -212,4 +212,6 @@
   display: block;
   margin-top: 0.6em;
   font-weight: 600;
+  white-space: normal;
+  word-break: break-word;
 }
