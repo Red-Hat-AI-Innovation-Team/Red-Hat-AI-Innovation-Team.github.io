@@ -306,11 +306,11 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div>
-        <a href="/images/about/navid.jpg" class="portfolio__link glightbox" data-glightbox='title: Navid Azizn; description: ; descPosition: bottom;'>
+        <a href="/images/about/navid.jpg" class="portfolio__link glightbox" data-glightbox='title: Navid Azizan; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/navid.jpg" data-src="/images/about/navid.jpg" class="portfolio__image lazy" alt="Picture of Navid Azizn">
+          <img src="/images/about/navid.jpg" data-src="/images/about/navid.jpg" class="portfolio__image lazy" alt="Picture of Navid Azizan">
         </a>
-        <a href="https://azizan.mit.edu" target="_blank">Navid Azizn</a>,<br>MIT
+        <a href="https://azizan.mit.edu" target="_blank">Navid Azizan</a>,<br>MIT
       </div>
     </div>
 
