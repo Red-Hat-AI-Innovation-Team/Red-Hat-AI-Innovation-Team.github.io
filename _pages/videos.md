@@ -54,14 +54,14 @@ Hosted by Dr. Akash Srivastava (Red Hat) and Isha Puri (MIT), this series distil
 <div class="video-grid">
   <div class="video-card">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/mj1dwrPfvb4?si=6ghEXRoag8s16MRO" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="https://www.youtube.com/watch?v=mj1dwrPfvb4" target="_blank">📹 Inference Time Scaling for Enterprises</a></strong><br>👥 Guests: Matt Hicks (Red Hat CEO), Chris Wright (Red Hat CTO)</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=mj1dwrPfvb4" target="_blank">📹 Inference Time Scaling for Enterprises</a></strong><br>👥 Guests: Matt Hicks (Red Hat CEO), Chris Wright (Red Hat CTO)<br>🎧 <a href="https://open.spotify.com/episode/5biaUGg29G5Ubz4OgQL2oE?si=0fk8HIrHSdSL7Jbv2XBznA" class="spotify-link" target="_blank">Listen on Spotify</a></p>
   </div>
   <div class="video-card">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/rGve4qQj1-s?si=RqttVWC9GL7b51Lt" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="https://www.youtube.com/watch?v=rGve4qQj1-s" target="_blank">📹 Generative Optimization in Engineering Design</a></strong><br>👤 Guest: Dr. Faez Ahmed</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=rGve4qQj1-s" target="_blank">📹 Generative Optimization in Engineering Design</a></strong><br>👤 Guest: Dr. Faez Ahmed<br>🎧 <a href="https://open.spotify.com/episode/0dPqwpb5F0ovpmvyCrJt2y?si=CUdrdNbyRByrNt3bokqT-Q" class="spotify-link" target="_blank">Listen on Spotify</a></p>
   </div>
   <div class="video-card">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/QEDGOEJxQk4?si=TbHPJpAWN9SbzkKn" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="https://www.youtube.com/watch?v=QEDGOEJxQk4" target="_blank">📹 Inference-time scaling: How small models beat the big ones</a></strong><br>👥 Guests: Shivchander Sudalairaj, GX Xu, Kai Xu</p>
+    <p><strong><a href="https://www.youtube.com/watch?v=QEDGOEJxQk4" target="_blank">📹 Inference-time scaling: How small models beat the big ones</a></strong><br>👥 Guests: Shivchander Sudalairaj, GX Xu, Kai Xu<br>🎧 <a href="https://open.spotify.com/episode/1FJKF0HR03pUNxeEN5BwEM?si=AFGPFdT4TE2cpja6zivT4Q" class="spotify-link" target="_blank">Listen on Spotify</a></p>
   </div>
 </div>

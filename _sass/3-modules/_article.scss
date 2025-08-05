@@ -175,3 +175,13 @@
   padding: 1em;
   text-align: left;
 }
+
+.video-card .spotify-link {
+  color: #1DB954; /* Spotify green */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.video-card .spotify-link:hover {
+  text-decoration: underline;
+}
