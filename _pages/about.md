@@ -143,6 +143,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://x.com/rohanawhad" target="_blank">Rohan Awhad</a>
       </div>
     </div>
+
+              <div class="col col-3 col-d-6 col-t-12">
+      <div>
+        <a href="/images/about/Mihir.png" class="portfolio__link glightbox" data-glightbox='title: Mihir Athale; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Mihir.png" data-src="/images/about/Mihir.png" class="portfolio__image lazy" alt="Picture of Mihir Athale">
+        </a>
+        <a href="https://www.linkedin.com/in/mihirathale" target="_blank">Mihir Athale</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -154,9 +164,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
   <div class="row">
     <div class="col col-3 col-d-6 col-t-12">
       <div>
-        <a href="/images/about/luke.jpg" class="portfolio__link glightbox" data-glightbox='title: Luke Inglis; description: ; descPosition: bottom;'>
+        <a href="/images/about/Luke.jpeg" class="portfolio__link glightbox" data-glightbox='title: Luke Inglis; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/luke.jpg" data-src="/images/about/luke.jpg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
+          <img src="/images/about/Luke.jpeg" data-src="/images/about/Luke.jpeg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
         </a>
         <a href="https://www.linkedin.com/in/luke-inglis/" target="_blank">Luke Inglis</a>,<br>Red Hat
       </div>
