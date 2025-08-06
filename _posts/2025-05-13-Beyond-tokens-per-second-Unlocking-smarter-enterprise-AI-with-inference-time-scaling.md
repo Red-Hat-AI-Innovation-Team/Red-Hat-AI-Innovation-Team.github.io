@@ -1,6 +1,6 @@
 ---
 layout: none
-title: Beyond tokens per second: Unlocking smarter enterprise AI with inference-time scaling
+title: "Beyond tokens per second: Unlocking smarter enterprise AI with inference-time scaling"
 date: 2025-05-13
 image: '/images/its-blog.png'
 ---
