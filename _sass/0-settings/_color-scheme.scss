@@ -32,6 +32,29 @@
   --tr-color: var(--light-gray);
 
   --syntax-highlighting-background: #f3f3f3;
+  
+  /* Article specific colors */
+  --article-secondary-text: #666;
+  --article-border: #e0e0e0;
+  --article-background: #fafbfc;
+  --article-background-alt: #f5f7fa;
+  --article-link-blue: #2a5d9f;
+  --article-spotify-green: #1DB954;
+  
+  /* Syntax highlighting colors */
+  --syntax-comment: #998;
+  --syntax-error: #a61717;
+  --syntax-error-bg: #e3d2d2;
+  --syntax-keyword: var(--text-color);
+  --syntax-number: #099;
+  --syntax-string: #ec2355;
+  --syntax-name: #008080;
+  --syntax-builtin: #0086B3;
+  --syntax-class: #5d76bf;
+  --syntax-function: #900;
+  --syntax-tag: #4d65dc;
+  --syntax-regex: #009926;
+  --syntax-symbol: #990073;
 }
 
 :root[dark] {
@@ -63,4 +86,27 @@
   --tr-color: #080b12;
 
   --syntax-highlighting-background: #080b12;
+  
+  /* Article specific colors - dark mode */
+  --article-secondary-text: var(--gray);
+  --article-border: var(--border-color);
+  --article-background: var(--background-alt-color);
+  --article-background-alt: #1a1a20;
+  --article-link-blue: #7aa3d6;
+  --article-spotify-green: #1ed760;
+  
+  /* Syntax highlighting colors - dark mode */
+  --syntax-comment: #7c7c7c;
+  --syntax-error: #ff6b6b;
+  --syntax-error-bg: #4a2828;
+  --syntax-keyword: var(--light-gray);
+  --syntax-number: #4dd0e1;
+  --syntax-string: #f8bbd9;
+  --syntax-name: #4db6ac;
+  --syntax-builtin: #81c784;
+  --syntax-class: #9fa8da;
+  --syntax-function: #ffab91;
+  --syntax-tag: #90caf9;
+  --syntax-regex: #a5d6a7;
+  --syntax-symbol: #ce93d8;
 }

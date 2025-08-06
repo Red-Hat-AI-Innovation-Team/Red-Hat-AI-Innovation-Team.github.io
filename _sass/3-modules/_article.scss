@@ -96,7 +96,7 @@
 }
 .video-speakers {
   font-size: 0.95em;
-  color: #666;
+  color: var(--article-secondary-text);
   margin-top: 2px;
 }
 @media (max-width: 900px) {
@@ -111,9 +111,9 @@
 }
 
 .publication-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--article-border);
   border-radius: 8px;
-  background: #fafbfc;
+  background: var(--article-background);
   padding: 1.2em 1.5em;
   margin-bottom: 1.5em;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
@@ -135,22 +135,22 @@
 .publication-card details {
   margin-top: 0.7em;
   font-size: 0.97em;
-  background: #f5f7fa;
+  background: var(--article-background-alt);
   border-radius: 4px;
   padding: 0.5em 0.8em;
 }
 .publication-card summary {
   cursor: pointer;
   font-weight: 500;
-  color: #2a5d9f;
+  color: var(--article-link-blue);
   margin-bottom: 0.3em;
 }
 
 /* Video Cards */
 .video-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--article-border);
   border-radius: 8px;
-  background: #fafbfc;
+  background: var(--article-background);
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   cursor: pointer;
@@ -177,7 +177,7 @@
 }
 
 .video-card .spotify-link {
-  color: #1DB954; /* Spotify green */
+  color: var(--article-spotify-green);
   font-weight: 600;
   text-decoration: none;
 }
