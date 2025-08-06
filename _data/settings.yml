@@ -38,37 +38,37 @@ hero:
 portfolio:
   portfolio__title: LLM Toolkit
   portfolio__gallery:
-    - image: /images/logo-its-white_bg-v2.png
+    - image: /images/toolkit logos/logo-its-white_bg-v2.png
       title: its_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/its_hub
       description: Inference-time scaling for LLMs.
 
-    - image: /images/portfolio/sdg_hub.png
+    - image: /images/toolkit logos/sdg_hub.png
       title: sdg_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub
       description: Synthetic data generation pipelines for post-training
 
-    - image: /images/training.png
+    - image: /images/toolkit logos/training.png
       title: training
       link: https://github.com/instructlab/training
       description: Efficient messages-format SFT library for language models
 
-    - image: /images/async-logo.png
+    - image: /images/toolkit logos/async-logo.png
       title: async-grpo
       link: https://github.com/Red-Hat-AI-Innovation-Team/async-grpo
       description: Asynchronous GRPO for scalable reinforcement learning
 
-    - image: /images/gallery-04.jpg
+    - image: /images/stock photos/gallery-04.jpg
       title: SQuat
       link: /squat/
       description: KV cache quantization for scaling inference time
 
-    - image: /images/orthogonal-subspace-learning.png
+    - image: /images/toolkit logos/orthogonal-subspace-learning.png
       title: orthogonal-subspace-learning
       link: https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning
       description: Adaptive SVD-based continual learning method for LLMs with negligible catastrophic forgetting.
 
-    - image: /images/logo-its-white_bg-v2.png
+    - image: /images/toolkit logos/logo-its-white_bg-v2.png
       title: probabilistic-inference-scaling
       link: https://github.com/probabilistic-inference-scaling/probabilistic-inference-scaling
       description: Inference-time scaling with particle filtering.

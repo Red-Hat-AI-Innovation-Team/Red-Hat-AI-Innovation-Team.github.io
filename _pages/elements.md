@@ -2,7 +2,7 @@
 layout: page
 title: Elements
 permalink: /elements/
-image: '/images/11.jpg'
+image: '/images/stock photos/11.jpg'
 ---
 
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
@@ -112,17 +112,17 @@ li {
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/09.jpg">
-    <img src="/images/06.jpg">
-    <img src="/images/03.jpg">
-    <img src="/images/08.jpg">
-    <img src="/images/05.jpg">
-    <img src="/images/11.jpg">
+    <img src="/images/stock photos/09.jpg">
+<img src="/images/stock photos/06.jpg">
+<img src="/images/stock photos/03.jpg">
+<img src="/images/stock photos/08.jpg">
+<img src="/images/stock photos/05.jpg">
+<img src="/images/stock photos/11.jpg">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-![Minimalism]({{site.baseurl}}/images/04.jpg)
+![Minimalism]({{site.baseurl}}/images/stock photos/04.jpg)
 *Photo by [Kimon Maritz](https://unsplash.com/photos/mQiZnKwGXW0) on [Unsplash](https://unsplash.com/)*
 
 ***

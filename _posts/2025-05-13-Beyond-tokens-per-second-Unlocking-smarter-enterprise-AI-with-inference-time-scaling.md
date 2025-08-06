@@ -2,7 +2,7 @@
 layout: none
 title: "Beyond tokens per second: Unlocking smarter enterprise AI with inference-time scaling"
 date: 2025-05-13
-image: '/images/its-blog.png'
+image: '/images/posts/its-blog.png'
 ---
 
 <meta http-equiv="refresh" content="0; url=https://www.redhat.com/en/blog/smarter-enterprise-ai-inference-time-scaling">

@@ -1,6 +1,6 @@
 ---
 layout: none
-image: '/images/reasoning-blog.png'
+image: '/images/posts/reasoning-blog.png'
 ---
 
 <meta http-equiv="refresh" content="0; url=https://developers.redhat.com/articles/2025/05/20/customize-reasoning-models-synthetic-data#">
