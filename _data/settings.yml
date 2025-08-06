@@ -48,17 +48,22 @@ portfolio:
       link: https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub
       description: Synthetic data generation pipelines for post-training
 
-    - image: /images/toolkit logos/training.png
-      title: training
-      link: https://github.com/instructlab/training
-      description: Efficient messages-format SFT library for language models
+    - image: /images/toolkit logos/training_hub.png
+      title: training_hub
+      link: https://github.com/Red-Hat-AI-Innovation-Team/training_hub
+      description: Post training algorithms for LLMs
 
     - image: /images/toolkit logos/async-logo.png
       title: async-grpo
       link: https://github.com/Red-Hat-AI-Innovation-Team/async-grpo
       description: Asynchronous GRPO for scalable reinforcement learning
 
-    - image: /images/stock photos/gallery-04.jpg
+    - image: /images/toolkit logos/training.png
+      title: training
+      link: https://github.com/instructlab/training
+      description: Efficient messages-format SFT library for language models
+
+    - image: /images/toolkit logos/squat.jpg
       title: SQuat
       link: /squat/
       description: KV cache quantization for scaling inference time
