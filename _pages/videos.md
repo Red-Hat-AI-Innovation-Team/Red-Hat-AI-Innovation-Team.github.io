@@ -10,6 +10,10 @@ Random Samples is a weekly seminar series that airs live on our Red Hat YouTube 
 
 <div class="video-grid">
   <div class="video-card">
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/1PGHYKqrE94?si=OkjefuYN7hK76NWU" frameborder="0" allowfullscreen></iframe>
+    <p><strong><a href="https://www.youtube.com/live/1PGHYKqrE94?si=OkjefuYN7hK76NWU" target="_blank">📹 Hopscotch: Discovering and Skipping Redundancies in Language Models</a></strong><br>👤 Speaker: Mustafa Eyceoz</p>
+  </div>
+  <div class="video-card">
     <iframe width="300" height="170" src="https://www.youtube.com/embed/ddnRm-OHm1k?si=VN4JLkyEEXaawE0c" frameborder="0" allowfullscreen></iframe>
     <p><strong><a href="https://www.youtube.com/watch?v=ddnRm-OHm1k" target="_blank">📹 Grounding Feedback is All You Need: Aligning Small Vision-Language Models</a></strong><br>👤 Speaker: Giorgio Giannone</p>
   </div>
