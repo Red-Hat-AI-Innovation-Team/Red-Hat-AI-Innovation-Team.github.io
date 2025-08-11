@@ -1,0 +1,29 @@
+<!-- begin videos -->
+<section class="videos section">
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__info">
+          <div class="section__head">
+            <h2 class="section__title">Recent videos</h2>
+            <a class="section__link" href="{{ '/videos' | relative_url }}">View all videos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      {% if site.data.videos.size > 0 %}
+        {% assign sorted_videos = site.data.videos | sort: 'date' | reverse %}
+        {% for video in sorted_videos offset:0 limit:3 %}
+          {% include video-card.html %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+</section>
+<!-- end videos -->
