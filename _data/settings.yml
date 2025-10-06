@@ -36,7 +36,7 @@ hero:
 #-------------------------------
 # Portfolio Settings
 portfolio:
-  portfolio__title: LLM Toolkit
+  portfolio__title: LLM Hubs
   portfolio__gallery:
     - image: /images/toolkit logos/logo-its-white_bg-v2.png
       title: its_hub
@@ -53,6 +53,9 @@ portfolio:
       link: https://github.com/Red-Hat-AI-Innovation-Team/training_hub
       description: Post training algorithms for LLMs
 
+other_repos:
+  title: LLM Tools
+  gallery:
     - image: /images/toolkit logos/async-logo.png
       title: async-grpo
       link: https://github.com/Red-Hat-AI-Innovation-Team/async-grpo
@@ -77,6 +80,16 @@ portfolio:
       title: probabilistic-inference-scaling
       link: https://github.com/probabilistic-inference-scaling/probabilistic-inference-scaling
       description: Inference-time scaling with particle filtering.
+
+    - image: /images/toolkit logos/logo-its-white_bg-v2.png
+      title: reward_hub
+      link: https://github.com/Red-Hat-AI-Innovation-Team/reward_hub
+      description: State-of-the-art reward models for preference data generation and acceptance criteria.
+
+    - image: /images/toolkit logos/training.png
+      title: mini_trainer
+      link: https://github.com/Red-Hat-AI-Innovation-Team/mini_trainer
+      description: Efficient training library for large language models up to 70B parameters on a single node.
 
     # - image: /images/gallery-06.jpg
     #   title: Isaac Benhesed

@@ -1,0 +1,41 @@
+<!-- begin other repos -->
+<section class="section portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__head">
+          <h2 class="section__title">{{ site.data.settings.other_repos.title }}</h2>
+          <div class="portfolio__view">
+            <div class="portfolio__toggle">
+              <div class="icon">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio__gallery animate">
+    <div class="container">
+      <div class="row">
+        {% for repo in site.data.settings.other_repos.gallery %}
+        <div class="col col-3 col-d-6 col-t-12">
+          <a href="{{repo.link}}" style="text-decoration: underline;">{{repo.title}}</a>
+          <div class="portfolio__item">
+            <a href="{% if repo.link %}{{repo.link}}{% else %}{{repo.image}}{% endif %}" class="portfolio__link" {% if repo.video %}aria-label="Video"{% else %}data-glightbox='title: {{repo.title}}; description: {{repo.description}}; descPosition: bottom;'{% endif %}>
+              <img src="{{repo.image}}" data-src="{{repo.image}}" class="portfolio__image lazy" alt="{{repo.title}}">
+            </a>
+            <br>
+            {{repo.description}}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end other repos -->
