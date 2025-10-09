@@ -2,6 +2,7 @@
 # Site Settings
 title: AI Innovation Team
 logo: /images/toolkit logos/Black and White Labs/lab.png
+logo_dark: /images/toolkit logos/Black and White Labs/lab-darkmode.png
 author: AI Innovation Team
 description: A collection of open-source generative AI tools made and maintained by a collective of AI researchers and engineers from Red Hat AI, MIT, IBM, UMass.
 

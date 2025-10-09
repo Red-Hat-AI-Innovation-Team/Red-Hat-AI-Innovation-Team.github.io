@@ -42,9 +42,28 @@
   background: transparent;
   border-radius: 0;
   padding: 0;
+  display: inline-block;
+}
+
+.logo__image--light {
   mix-blend-mode: multiply;
   filter: contrast(1.1);
-  display: inline-block;
+}
+
+.logo__image--dark {
+  display: none;
+  mix-blend-mode: normal;
+  filter: none;
+}
+
+.dark-mode {
+  .logo__image--light {
+    display: none;
+  }
+
+  .logo__image--dark {
+    display: inline-block;
+  }
 }
 
 .logo__text {
