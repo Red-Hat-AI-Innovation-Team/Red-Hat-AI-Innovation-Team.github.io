@@ -20,10 +20,6 @@ menu__settings:
       url: '/videos/'
     - title: 'About'
       url: '/about/'
-    # - title: 'Contact'
-    #   url: '/contact/'
-    # - title: 'Elements'
-    #   url: '/elements/'
 
 
 #-------------------------------
@@ -91,22 +87,6 @@ other_repos:
       link: https://github.com/instructlab/training
       description: Efficient messages-format SFT library for language models
 
-    # - image: /images/gallery-06.jpg
-    #   title: Isaac Benhesed
-    #   description: Minimalist black coffee <a href="https://unsplash.com/photos/onLbXleIkds">Unsplash</a>
-
-    # - image: /images/gallery-07.jpg
-    #   title: Water Journal
-    #   description: Water Journal is a bi-annual publication exploring the beauty and complexity of all things water <a href="https://unsplash.com/photos/EbuaKnSm8Zw">Unsplash</a>
-
-    # - image: /images/gallery-08.jpg
-    #   title: Luca Bravo
-    #   description: Worms eye view of city buildings <a href="https://unsplash.com/photos/a6x7YPiNxwI">Unsplash</a>
-
-    # - image: /images/gallery-09.jpg
-    #   title: Books and Laptop
-    #   description: Silver laptop computer with two books on the top <a href="https://unsplash.com/photos/fFIAKABImf4">Unsplash</a>
-
 
 #-------------------------------
 # Subscribe Settings
@@ -120,16 +100,7 @@ other_repos:
 #-------------------------------
 # Footer Settings
 social:
-# - {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com"}
-# - {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
-# - {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
-# - {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}
-# - {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "https://instagram.com"}
-# - {icon: "ion ion-logo-vimeo", color: "#1393cd", label: Vimeo, link: "https://vimeo.com"}
 - {icon: "ion-logo-github", color: "#24292e", label: Github, link: "https://github.com/Red-Hat-AI-Innovation-Team"}
-
-# Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
 
 
 #-------------------------------
@@ -137,9 +108,6 @@ social:
 contact:
   email: your@email.com # Add your email for contact form
   description: Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form.
-
-# NOTE
-# Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
 
 #-------------------------------

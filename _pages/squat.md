@@ -144,7 +144,7 @@ permalink: /squat/
 .method-visual img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
 }
 
@@ -162,7 +162,7 @@ permalink: /squat/
 .result-item img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ddd;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
 }
 
@@ -172,22 +172,30 @@ permalink: /squat/
 }
 
 .contributions-list li {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  background-color: var(--article-background);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 15px;
   margin: 10px 0;
 }
 
 .citation-box {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
+  background-color: var(--article-background);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 20px;
   margin: 20px 0;
   font-family: 'Courier New', monospace;
   font-size: 0.9em;
   overflow-x: auto;
+}
+
+.citation-box pre,
+.citation-box code {
+  background-color: transparent;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
