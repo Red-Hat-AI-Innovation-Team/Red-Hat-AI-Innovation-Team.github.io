@@ -42,12 +42,9 @@
   background: transparent;
   border-radius: 0;
   padding: 0;
+  mix-blend-mode: multiply;
+  filter: contrast(1.1);
   display: inline-block;
-  filter: invert(0);
-}
-
-.dark-mode .logo__image {
-  filter: invert(1);
 }
 
 .logo__text {

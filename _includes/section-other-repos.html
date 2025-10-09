@@ -24,13 +24,16 @@
       <div class="row">
         {% for repo in site.data.settings.other_repos.gallery %}
         <div class="col col-3 col-d-6 col-t-12">
-          <a href="{{repo.link}}" style="text-decoration: underline;">{{repo.title}}</a>
           <div class="portfolio__item">
             <a href="{% if repo.link %}{{repo.link}}{% else %}{{repo.image}}{% endif %}" class="portfolio__link" {% if repo.video %}aria-label="Video"{% else %}data-glightbox='title: {{repo.title}}; description: {{repo.description}}; descPosition: bottom;'{% endif %}>
               <img src="{{repo.image}}" data-src="{{repo.image}}" class="portfolio__image lazy" alt="{{repo.title}}">
             </a>
-            <br>
-            {{repo.description}}
+            <div class="portfolio__content">
+              <h3 class="portfolio__title">
+                <a href="{{repo.link}}">{{repo.title}}</a>
+              </h3>
+              <p class="portfolio__description">{{repo.description}}</p>
+            </div>
           </div>
         </div>
         {% endfor %}

@@ -25,15 +25,17 @@
       <div class="row">
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
         <div class="col col-3 col-d-6 col-t-12">
-          <a href="{{photo.link}}" style="text-decoration: underline;">{{photo.title}}</a>
           <div class="portfolio__item">
             <a href="{% if photo.link %}{{photo.link}}{% else %}{{photo.image}}{% endif %}" class="portfolio__link" {% if photo.video %}aria-label="Video"{% else %}data-glightbox='title: {{photo.title}}; description: {{photo.description}}; descPosition: bottom;'{% endif %}>
-              <!-- <span class="portfolio__icon"><i class="ion ion-ios-eye">{{photo.title}}</i></span> -->
               <img src="{{photo.image}}" data-src="{{photo.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
             </a>
-            <br>
-            {{photo.description}}
-           </div>
+            <div class="portfolio__content">
+              <h3 class="portfolio__title">
+                <a href="{{photo.link}}">{{photo.title}}</a>
+              </h3>
+              <p class="portfolio__description">{{photo.description}}</p>
+            </div>
+          </div>
         </div>
         {% endfor %}
       </div>

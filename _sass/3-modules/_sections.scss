@@ -1,9 +1,9 @@
 /* Sections */
 .section {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 
   @media only screen and (max-width: $mobile) {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 }
 
