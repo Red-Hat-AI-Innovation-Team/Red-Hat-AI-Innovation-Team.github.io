@@ -79,6 +79,13 @@
   }
 }
 
+.portfolio__gallery {
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .view-list {
 
   .portfolio__gallery {
@@ -109,6 +116,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  height: 100%;
 
   &:hover {
     box-shadow: 0 8px 24px rgba(0,0,0,0.12);
@@ -176,4 +184,23 @@
   color: var(--text-alt-color);
   line-height: 1.4;
   flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(1.4em * 3);
+}
+
+/* Team Member Cards */
+.team-member {
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-4px) scale(1.02);
+    
+    .portfolio__link {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+  }
 }

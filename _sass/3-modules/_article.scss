@@ -101,6 +101,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-bottom: 2em;
+
+  > * {
+    display: flex;
+  }
 }
 
 .video-grid {
