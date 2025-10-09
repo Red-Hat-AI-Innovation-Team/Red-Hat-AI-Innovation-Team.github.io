@@ -3,6 +3,7 @@ layout: post
 title: Async-GRPO - Open, Fast, and Performant
 date: 2025-04-05
 image:  'https://hackmd.io/_uploads/HJrSol0ake.svg'
+description: Introducing Async-GRPO - an open-source library for scalable reinforcement learning with 42% efficiency gains over VERL and 11x over TRL for GRPO training.
 ---
 
 Written by Aldo Pareja, Mustafa Eyceoz

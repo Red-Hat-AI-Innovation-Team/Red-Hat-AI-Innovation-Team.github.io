@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 image: '/images/about/group.jpg'
+description: Meet the AI Innovation Team - researchers and engineers from Red Hat, IBM, MIT, and UMass building open-source LLM tools and advancing generative AI.
 ---
 
 ## AI Innovation Team

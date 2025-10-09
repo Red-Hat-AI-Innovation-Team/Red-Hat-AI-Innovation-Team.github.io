@@ -2,6 +2,7 @@
 layout: page
 title: ""
 permalink: /squat/
+description: SQuat - KV cache quantization for scaling inference time compute in large language models. Optimize memory usage during LLM inference.
 ---
 
 <style>

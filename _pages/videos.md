@@ -2,6 +2,7 @@
 layout: page
 title: Videos
 permalink: /videos/
+description: Watch our AI research talks, tutorials, and discussions on LLMs, machine learning, and generative AI. Featuring Random Samples seminars and No Math AI podcast.
 ---
 
 <div class="section-nav">

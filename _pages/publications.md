@@ -3,6 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 image:
+description: Research publications from the AI Innovation Team on LLM optimization, continual learning, synthetic data generation, and inference-time scaling.
 ---
 
 ## Select Publications

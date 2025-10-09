@@ -4,6 +4,7 @@ title: Update 1 - Lessons on Reproducing R1-like Reasoning in Small LLMs without
 date: 2025-02-06
 image:  'https://probabilistic-inference-scaling.github.io/assets/images/process_video_cover.jpg'
 tags:   [reasoning, inference-time-scaling]
+description: First update on R1-like reasoning experiments - Granite models show significant gains with particle filtering and new data quality experiments.
 ---
 
 Written by Akash Srivastava, Isha Puri, Kai Xu, Shivchander Sudalairaj, Mustafa Eyceoz, Oleg Silkin, Abhishek Bhandwaldar, Aldo Genaro Pareja Cardona, GX Xu
