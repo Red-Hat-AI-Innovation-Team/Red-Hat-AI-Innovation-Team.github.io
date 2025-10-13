@@ -154,6 +154,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://www.linkedin.com/in/mihirathale" target="_blank">Mihir Athale</a>
       </div>
     </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/Yi.jpeg" class="portfolio__link glightbox" data-glightbox='title: Yi Zheng; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/Yi.jpeg" data-src="/images/about/Headshots/Yi.jpeg" class="portfolio__image lazy" alt="Picture of Yi Zheng">
+        </a>
+        <a href="https://www.linkedin.com/in/yz728/" target="_blank">Yi Zheng</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -262,6 +272,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/kaveh.jpeg" data-src="/images/about/Headshots/kaveh.jpeg" class="portfolio__image lazy" alt="Picture of Kaveh Alimohammadi">
         </a>
         <a href="https://kavehalim.github.io" target="_blank">Kaveh Alimohammadi</a>,<br>MIT
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/youngjin.jpg" class="portfolio__link glightbox" data-glightbox='title: Young Jin Park; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/youngjin.jpg" data-src="/images/about/Headshots/youngjin.jpg" class="portfolio__image lazy" alt="Picture of Young Jin Park">
+        </a>
+        <a href="https://young-j-park.github.io/" target="_blank">Young Jin Park</a>,<br>MIT
       </div>
     </div>
 
