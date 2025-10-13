@@ -36,16 +36,19 @@ portfolio:
   portfolio__title: LLM Hubs
   portfolio__gallery:
     - image: /images/toolkit logos/Black and White Labs/lab-its.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-its-2.png
       title: its_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/its_hub
       description: Inference-time scaling for LLMs.
 
     - image: /images/toolkit logos/Black and White Labs/lab-sdg.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-sdg-2.png
       title: sdg_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub
       description: Synthetic data generation pipelines 
 
     - image: /images/toolkit logos/Black and White Labs/lab-training-hub.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-training-hub-2.png
       title: training_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/training_hub
       description: Post training algorithms for LLMs

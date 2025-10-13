@@ -26,8 +26,13 @@
         {% for photo in site.data.settings.portfolio.portfolio__gallery %}
         <div class="col col-3 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <a href="{% if photo.link %}{{photo.link}}{% else %}{{photo.image}}{% endif %}" class="portfolio__link" {% if photo.video %}aria-label="Video"{% else %}data-glightbox='title: {{photo.title}}; description: {{photo.description}}; descPosition: bottom;'{% endif %}>
+            <a href="{% if photo.link %}{{photo.link}}{% else %}{{photo.image}}{% endif %}" class="portfolio__link {% if photo.image_hover %}portfolio__link--hover{% endif %}" {% if photo.video %}aria-label="Video"{% else %}data-glightbox='title: {{photo.title}}; description: {{photo.description}}; descPosition: bottom;'{% endif %}>
+              {% if photo.image_hover %}
+              <img src="{{photo.image}}" data-src="{{photo.image}}" class="portfolio__image portfolio__image--default lazy" alt="{{photo.title}}">
+              <img src="{{photo.image_hover}}" data-src="{{photo.image_hover}}" class="portfolio__image portfolio__image--hover lazy" alt="{{photo.title}} hover">
+              {% else %}
               <img src="{{photo.image}}" data-src="{{photo.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
+              {% endif %}
             </a>
             <div class="portfolio__content">
               <h3 class="portfolio__title">
