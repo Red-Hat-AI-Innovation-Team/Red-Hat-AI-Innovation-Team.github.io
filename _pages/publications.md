@@ -10,6 +10,8 @@ description: Research publications from the AI Innovation Team on LLM optimizati
 
 Below is a selection of recent publications from our team, showcasing our work in large language models, machine learning, and AI research. Publications are listed in reverse chronological order.
 
+NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. We will add them below after the camera ready deadline later in October.
+
 <div class="publication-card">
 <h3><a href="https://arxiv.org/abs/2506.03303" target="_blank" rel="noopener">Hopscotch: Discovering and Skipping Redundancies in Language Models</a></h3>
 <strong>Authors:</strong> Mustafa Eyceoz, <a href="https://scholar.google.com/citations?user=3pLEmAwAAAAJ&hl=en" target="_blank">Nikhil Shivakumar Nayak</a>, <a href="https://scholar.google.com/citations?hl=en&user=A3WtYhAAAAAJ" target="_blank">Hao Wang</a>, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, <a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" target="_blank">Akash Srivastava</a><br>
