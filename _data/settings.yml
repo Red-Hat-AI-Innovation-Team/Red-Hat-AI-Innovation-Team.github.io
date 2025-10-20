@@ -62,6 +62,7 @@ other_repos:
       description: Asynchronous GRPO for scalable reinforcement learning.
 
     - image: /images/toolkit logos/Black and White Labs/lab-mini-trainer.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-mini-trainer-2.png
       title: mini_trainer
       link: https://github.com/Red-Hat-AI-Innovation-Team/mini_trainer
       description: Efficient training library for large language models up to 70B parameters on a single node.
@@ -77,16 +78,19 @@ other_repos:
       description: Inference-time scaling with particle filtering.
 
     - image: /images/toolkit logos/Black and White Labs/lab-reward-hub.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-reward-hub-2.png
       title: reward_hub
       link: https://github.com/Red-Hat-AI-Innovation-Team/reward_hub
       description: State-of-the-art reward models for preference data generation and acceptance criteria.
 
     - image: /images/toolkit logos/Black and White Labs/lab-squat.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-squat-2.png
       title: SQuat
       link: /squat/
       description: KV cache quantization for scaling inference time
 
     - image: /images/toolkit logos/Black and White Labs/lab-training.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-training-2.png
       title: training
       link: https://github.com/instructlab/training
       description: Efficient messages-format SFT library for language models

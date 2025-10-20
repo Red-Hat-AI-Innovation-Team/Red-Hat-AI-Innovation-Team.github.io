@@ -6,6 +6,30 @@
   date: "2025-10-03"
   category: "Random Samples"
 
+- title: "Activation-Informed Merging of Large Language Models"
+  speaker: "Amin Heyrani Nobari & Kaveh Alim"
+  drive_file_id: "12zhCmJRC2QjB8NhsxmP6T2xVvBsnI7JB"
+  date: "2025-04-11"
+  category: "Random Samples"
+
+- title: "Scaling Inference Time Scaling: Subspace-orthogonal KV Cache Quantization"
+  speaker: "Hao Wang, Ligong Han"
+  drive_file_id: "1JkCjne0DsOGiH-g3TJMVw13pbX1ImP7j"
+  date: "2025-04-04"
+  category: "Random Samples"
+
+- title: "Practitioner's Guide to Instruction Tuning"
+  speaker: "Aldo Pareja"
+  drive_file_id: "1vt-ZC2J-hgXh0VnZ0YV0sCnh38AJAc4U"
+  date: "2025-01-31"
+  category: "Random Samples"
+
+- title: "Scaling Preference Alignment: Overcome Human Data Bottlenecks with Density Ratios from Open-source LLMs"
+  speaker: "GX Xu"
+  drive_file_id: "1uXV7aCaQsT0MNDNQEiy8E6ch_LVtSWY7"
+  date: "2025-01-10ß"
+  category: "Random Samples"
+
 - title: "SDG_Hub: An Open-Source Toolkit for Synthetic Data Generation & LLM Customization"
   speaker: "Shivchander Sudalairaj & Abhishek Bhandwaldar"
   youtube_id: "jEBTL2kqCyw"

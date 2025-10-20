@@ -25,8 +25,13 @@
         {% for repo in site.data.settings.other_repos.gallery %}
         <div class="col col-3 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <a href="{% if repo.link %}{{repo.link}}{% else %}{{repo.image}}{% endif %}" class="portfolio__link" {% if repo.video %}aria-label="Video"{% else %}data-glightbox='title: {{repo.title}}; description: {{repo.description}}; descPosition: bottom;'{% endif %}>
+            <a href="{% if repo.link %}{{repo.link}}{% else %}{{repo.image}}{% endif %}" class="portfolio__link {% if repo.image_hover %}portfolio__link--hover{% endif %}" {% if repo.video %}aria-label="Video"{% else %}data-glightbox='title: {{repo.title}}; description: {{repo.description}}; descPosition: bottom;'{% endif %}>
+              {% if repo.image_hover %}
+              <img src="{{repo.image}}" data-src="{{repo.image}}" class="portfolio__image portfolio__image--default lazy" alt="{{repo.title}}">
+              <img src="{{repo.image_hover}}" data-src="{{repo.image_hover}}" class="portfolio__image portfolio__image--hover lazy" alt="{{repo.title}} hover">
+              {% else %}
               <img src="{{repo.image}}" data-src="{{repo.image}}" class="portfolio__image lazy" alt="{{repo.title}}">
+              {% endif %}
             </a>
             <div class="portfolio__content">
               <h3 class="portfolio__title">
