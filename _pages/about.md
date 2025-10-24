@@ -155,13 +155,23 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
       </div>
     </div>
 
-    <div class="col col-3 col-d-6 col-t-12">
+        <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
         <a href="/images/about/Headshots/Yi.jpeg" class="portfolio__link glightbox" data-glightbox='title: Yi Zheng; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/Headshots/Yi.jpeg" data-src="/images/about/Headshots/Yi.jpeg" class="portfolio__image lazy" alt="Picture of Yi Zheng">
         </a>
         <a href="https://www.linkedin.com/in/yz728/" target="_blank">Yi Zheng</a>
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/Cole.png" class="portfolio__link glightbox" data-glightbox='title: Cole Hurwitz; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/Cole.png" data-src="/images/about/Headshots/Cole.png" class="portfolio__image lazy" alt="Picture of Cole Hurwitz">
+        </a>
+        <a href="https://colehurwitz.github.io/" target="_blank">Cole Hurwitz</a>
       </div>
     </div>
   </div>
@@ -342,16 +352,6 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/yoon.jpg" data-src="/images/about/Headshots/yoon.jpg" class="portfolio__image lazy" alt="Picture of Yoon Kim">
         </a>
         <a href="https://people.csail.mit.edu/yoonkim/" target="_blank">Yoon Kim</a>,<br>MIT
-      </div>
-    </div>
-
-    <div class="col col-3 col-d-6 col-t-12">
-      <div class="team-member">
-        <a href="/images/about/Headshots/Cole.png" class="portfolio__link glightbox" data-glightbox='title: Cole Hurwitz; description: ; descPosition: bottom;'>
-          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Cole.png" data-src="/images/about/Headshots/Cole.png" class="portfolio__image lazy" alt="Picture of Cole Hurwitz">
-        </a>
-        <a href="https://colehurwitz.github.io/" target="_blank">Cole Hurwitz</a>
       </div>
     </div>
   </div>
