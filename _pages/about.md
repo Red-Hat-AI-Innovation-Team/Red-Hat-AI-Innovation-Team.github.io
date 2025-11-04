@@ -153,7 +153,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         </a>
         <a href="https://www.linkedin.com/in/mihirathale" target="_blank">Mihir Athale</a>
       </div>
-    </div>
+    </div>f
 
         <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
