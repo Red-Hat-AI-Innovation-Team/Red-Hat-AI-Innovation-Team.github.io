@@ -61,6 +61,11 @@ other_repos:
       link: https://github.com/Red-Hat-AI-Innovation-Team/async-grpo
       description: Asynchronous GRPO for scalable reinforcement learning.
 
+    - image: /images/toolkit logos/Black and White Labs/lab-hopscotch.png
+      title: hopscotch
+      link: /hopscotch/
+      description: A method for skipping redundant attention blocks in language models
+
     - image: /images/toolkit logos/Black and White Labs/lab-mini-trainer.png
       image_hover: /images/toolkit logos/Black and White Labs/lab-mini-trainer-2.png
       title: mini_trainer
