@@ -17,6 +17,7 @@ We are an AI research team at Red Hat and IBM with collaborators from MIT, UMass
 
 ### LLM Tools
 - **[async-grpo](https://github.com/Red-Hat-AI-Innovation-Team/async-grpo)** - Asynchronous GRPO for scalable reinforcement learning
+- **[hopscotch](https://github.com/Red-Hat-AI-Innovation-Team/hopscotch)** - A method for skipping redundant attention blocks in language models
 - **[mini_trainer](https://github.com/Red-Hat-AI-Innovation-Team/mini_trainer)** - Efficient training library for LLMs up to 70B parameters on a single node
 - **[orthogonal-subspace-learning](https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning)** - Adaptive SVD-based continual learning
 - **[probabilistic-inference-scaling](https://github.com/probabilistic-inference-scaling/probabilistic-inference-scaling)** - Inference-time scaling with particle filtering
