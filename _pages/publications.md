@@ -13,6 +13,28 @@ Below is a selection of recent publications from our team, showcasing our work i
 NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. We will add them below after the camera ready deadline later in October.
 
 <div class="publication-card">
+<h3><a href="https://arxiv.org/abs/2510.23667" target="_blank" rel="noopener">Optimize Any Topology: A Foundation Model for Shape- and Resolution-Free Topology Optimization</a></h3>
+<strong>Authors:</strong> Amin Heyrani Nobari, Lyle Regenwetter, Cyril Picard, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, Faez Ahmed<br>
+<details>
+  <summary>View Abstract</summary>
+  Structural topology optimization (TO) is central to engineering design but remains computationally intensive due to complex physics and hard constraints. Existing deep-learning methods are limited to fixed square grids, a few hand-coded boundary conditions, and post-hoc optimization, preventing general deployment. We introduce Optimize Any Topology (OAT), a foundation-model framework that directly predicts minimum-compliance layouts for arbitrary aspect ratios, resolutions, volume fractions, loads, and fixtures. OAT combines a resolution- and shape-agnostic autoencoder with an implicit neural-field decoder and a conditional latent-diffusion model trained on OpenTO, a new corpus of 2.2 million optimized structures covering 2 million unique boundary-condition configurations. On four public benchmarks and two challenging unseen tests, OAT lowers mean compliance up to 90% relative to the best prior models and delivers sub-1 second inference on a single GPU across resolutions from 64 x 64 to 256 x 256 and aspect ratios as high as 10:1. These results establish OAT as a general, fast, and resolution-free framework for physics-aware topology optimization and provide a large-scale dataset to spur further research in generative modeling for inverse design.
+</details>
+<strong><a href="https://arxiv.org/abs/2510.23667">📄 Arxiv</a></strong><br>
+<strong>Date:</strong> 2025-10-26
+</div>
+
+<div class="publication-card">
+<h3><a href="https://www.arxiv.org/abs/2506.09338" target="_blank" rel="noopener">Know What You Don't Know: Uncertainty Calibration of Process Reward Models</a></h3>
+<strong>Authors:</strong> Young-Jin Park, Kristjan Greenewald, Kaveh Alim, <a href="https://scholar.google.com/citations?hl=en&user=A3WtYhAAAAAJ" target="_blank">Hao Wang</a>, Navid Azizan<br>
+<details>
+  <summary>View Abstract</summary>
+  Process reward models (PRMs) play a central role in guiding inference-time scaling algorithms for large language models (LLMs). However, we observe that even state-of-the-art PRMs can be poorly calibrated. Specifically, they tend to overestimate the success probability that a partial reasoning step will lead to a correct final answer, particularly when smaller LLMs are used to complete the reasoning trajectory. To address this, we present a calibration approach -- performed via quantile regression -- that adjusts PRM outputs to better align with true success probabilities. Leveraging these calibrated success estimates and their associated confidence bounds, we introduce an instance-adaptive scaling (IAS) framework that dynamically adjusts the compute budget based on the estimated likelihood that a partial reasoning trajectory will yield a correct final answer. Unlike conventional methods that allocate a fixed number of reasoning trajectories per query, this approach adapts to each instance and reasoning step when using our calibrated PRMs. Experiments on mathematical reasoning benchmarks show that (i) our PRM calibration method achieves small calibration error, outperforming the baseline methods, (ii) calibration is crucial for enabling effective IAS, and (iii) the proposed IAS strategy reduces inference costs while maintaining final answer accuracy, utilizing less compute on more confident problems as desired.
+</details>
+<strong><a href="https://www.arxiv.org/abs/2506.09338">📄 Arxiv</a></strong><br>
+<strong>Date:</strong> 2025-06-11
+</div>
+
+<div class="publication-card">
 <h3><a href="https://arxiv.org/abs/2506.03303" target="_blank" rel="noopener">Hopscotch: Discovering and Skipping Redundancies in Language Models</a></h3>
 <strong>Authors:</strong> Mustafa Eyceoz, <a href="https://scholar.google.com/citations?user=3pLEmAwAAAAJ&hl=en" target="_blank">Nikhil Shivakumar Nayak</a>, <a href="https://scholar.google.com/citations?hl=en&user=A3WtYhAAAAAJ" target="_blank">Hao Wang</a>, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, <a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" target="_blank">Akash Srivastava</a><br>
 <details>
@@ -76,6 +98,17 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
 </details>
 <strong><a href="https://arxiv.org/abs/2412.13337">📄 Arxiv</a></strong><br>
 <strong>Date:</strong> 2024-12-17
+</div>
+
+<div class="publication-card">
+<h3><a href="https://arxiv.org/abs/2412.05723" target="_blank" rel="noopener">Training-Free Bayesianization for Low-Rank Adapters of Large Language Models</a></h3>
+<strong>Authors:</strong> Haizhou Shi, Yibin Wang, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, Huan Zhang, <a href="https://scholar.google.com/citations?hl=en&user=A3WtYhAAAAAJ" target="_blank">Hao Wang</a><br>
+<details>
+  <summary>View Abstract</summary>
+  Estimating the uncertainty of responses from Large Language Models (LLMs) remains a critical challenge. While recent Bayesian methods have demonstrated effectiveness in quantifying uncertainty through low-rank weight updates, they typically require complex fine-tuning or post-training procedures. In this paper, we propose Training-Free Bayesianization (TFB), a simple yet theoretically grounded framework that efficiently transforms trained low-rank adapters into Bayesian ones without additional training. TFB systematically searches for the maximally acceptable level of variance in the weight posterior, constrained within a family of low-rank isotropic Gaussian distributions. Our theoretical analysis shows that under mild conditions, this search process is equivalent to KL-regularized variational optimization, a generalized form of variational inference. Through comprehensive experiments, we show that TFB achieves superior uncertainty estimation and generalization compared to existing methods while eliminating the need for complex Bayesianization training procedures.
+</details>
+<strong><a href="https://arxiv.org/abs/2412.05723">📄 Arxiv</a></strong><br>
+<strong>Date:</strong> 2024-12-07
 </div>
 
 <div class="publication-card">
