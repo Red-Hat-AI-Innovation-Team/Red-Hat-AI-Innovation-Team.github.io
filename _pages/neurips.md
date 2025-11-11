@@ -270,7 +270,7 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
     
 <div class="publication-card">
 <h3><a href="https://arxiv.org/abs/2412.05723" target="_blank" rel="noopener">Training-Free Bayesianization for Low-Rank Adapters of Large Language Models</a></h3>
-<strong>Authors:</strong> Haizhou Shi, Yibin Wang, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, Huan Zhang, <a href="https://scholar.google.com/citations?hl=en&user=A3WtYhAAAAAJ" target="_blank">Hao Wang</a><br>
+<strong>Authors:</strong> Haizhou Shi, Yibin Wang, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, Huan Zhang, Hao Wang <br>
 <details>
   <summary>View Abstract</summary>
   Estimating the uncertainty of responses from Large Language Models (LLMs) remains a critical challenge. While recent Bayesian methods have demonstrated effectiveness in quantifying uncertainty through low-rank weight updates, they typically require complex fine-tuning or post-training procedures. In this paper, we propose Training-Free Bayesianization (TFB), a simple yet theoretically grounded framework that efficiently transforms trained low-rank adapters into Bayesian ones without additional training. TFB systematically searches for the maximally acceptable level of variance in the weight posterior, constrained within a family of low-rank isotropic Gaussian distributions. Our theoretical analysis shows that under mild conditions, this search process is equivalent to KL-regularized variational optimization, a generalized form of variational inference. Through comprehensive experiments, we show that TFB achieves superior uncertainty estimation and generalization compared to existing methods while eliminating the need for complex Bayesianization training procedures.
@@ -373,10 +373,6 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
       <div class="team-member">
         <img src="/images/about/Headshots/nikhil.jpeg" alt="Nikhil Nayak">
         <div class="team-member-name">Nikhil Nayak</div>
-      </div>
-      <div class="team-member">
-        <img src="/images/about/Headshots/oleg.jpeg" alt="Oleg Silkin">
-        <div class="team-member-name">Oleg Silkin</div>
       </div>
       <div class="team-member">
         <img src="/images/about/Headshots/rohan.jpg" alt="Rohan Awhad">
