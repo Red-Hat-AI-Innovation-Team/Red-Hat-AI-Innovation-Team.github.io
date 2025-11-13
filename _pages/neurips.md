@@ -339,6 +339,10 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
     <h2>Who Will Be There</h2>
     <div class="team-grid">
       <div class="team-member">
+        <img src="/images/about/Headshots/abhishek.jpg" alt="Abhishek Bhandwaldar">
+        <div class="team-member-name">Abhishek Bhandwaldar</div>
+      </div>
+      <div class="team-member">
         <img src="/images/about/Headshots/akash.jpg" alt="Akash Srivastava">
         <div class="team-member-name">Akash Srivastava</div>
       </div>
