@@ -3,6 +3,115 @@ layout: default
 image: '/images/about/ai-innovation-banner-2.png'
 ---
 
+<style>
+/* Light mode - black banner */
+.neurips-banner {
+  background: #1a1a1a;
+  padding: 14px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.neurips-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255, 255, 255, 0.05) 25%, 
+    rgba(255, 255, 255, 0.1) 50%, 
+    rgba(255, 255, 255, 0.05) 75%, 
+    transparent 100%);
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { transform: translateX(-100%); }
+  50% { transform: translateX(100%); }
+}
+
+.neurips-banner a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s ease;
+}
+
+.neurips-banner a:hover {
+  transform: scale(1.02);
+}
+
+.neurips-banner .banner-text {
+  color: #fff;
+}
+
+.neurips-banner .banner-arrow {
+  color: #fff;
+  font-size: 1.2em;
+  animation: bounce-right 1s ease-in-out infinite;
+}
+
+@keyframes bounce-right {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
+.neurips-banner .banner-logo {
+  height: 28px;
+  width: auto;
+  vertical-align: middle;
+  filter: brightness(0) invert(1); /* Make logo white in light mode */
+}
+
+/* Dark mode - white banner */
+:root[dark] .neurips-banner {
+  background: #ffffff;
+}
+
+:root[dark] .neurips-banner::before {
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(0, 0, 0, 0.03) 25%, 
+    rgba(0, 0, 0, 0.05) 50%, 
+    rgba(0, 0, 0, 0.03) 75%, 
+    transparent 100%);
+}
+
+:root[dark] .neurips-banner a {
+  color: #1a1a1a;
+}
+
+:root[dark] .neurips-banner .banner-text {
+  color: #1a1a1a;
+}
+
+:root[dark] .neurips-banner .banner-arrow {
+  color: #1a1a1a;
+}
+
+:root[dark] .neurips-banner .banner-logo {
+  filter: none; /* Show original logo colors in dark mode */
+}
+</style>
+
+<div class="neurips-banner">
+  <a href="/neurips/">
+    <span class="banner-text">AI Innovation @ NeurIPS 2025!</span>
+    <span class="banner-arrow">→</span>
+  </a>
+</div>
+
 {% include section-hero.html %}
 
 {% include section-portfolio.html %}

@@ -398,9 +398,7 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
     </p>
     
     <div class="qr-code-container">
-      <div class="qr-placeholder">
-        [QR CODE PLACEHOLDER]
-      </div>
+      <img src="/images/about/ai_innovation_QR.png" alt="QR Code - Connect with Red Hat AI Innovation Team" style="width: 300px; height: 300px; border-radius: 10px;">
     </div>
     
     <div class="contact-info">
@@ -408,7 +406,7 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
     </div>
     
     <div class="contact-links">
-      <a href="/contact/">📧 Contact Us</a>
+      <a href="https://airtable.com/appfpSScW17vy9ind/pagh2DgbUm3IBJ8kS/form" target="_blank">📧 Contact Us</a>
       <a href="/publications/">📚 All Publications</a>
       <a href="https://github.com/Red-Hat-AI-Innovation-Team" target="_blank">💻 GitHub</a>
       <a href="/">🏠 Team Website</a>
