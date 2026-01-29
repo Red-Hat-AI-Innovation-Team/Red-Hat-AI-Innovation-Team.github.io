@@ -21,6 +21,8 @@ menu__settings:
       url: '/videos/'
     - title: 'About'
       url: '/about/'
+    - title: 'Careers'
+      url: '/careers/'
 
 
 #-------------------------------

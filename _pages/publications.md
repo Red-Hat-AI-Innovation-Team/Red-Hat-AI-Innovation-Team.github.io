@@ -20,7 +20,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   Structural topology optimization (TO) is central to engineering design but remains computationally intensive due to complex physics and hard constraints. Existing deep-learning methods are limited to fixed square grids, a few hand-coded boundary conditions, and post-hoc optimization, preventing general deployment. We introduce Optimize Any Topology (OAT), a foundation-model framework that directly predicts minimum-compliance layouts for arbitrary aspect ratios, resolutions, volume fractions, loads, and fixtures. OAT combines a resolution- and shape-agnostic autoencoder with an implicit neural-field decoder and a conditional latent-diffusion model trained on OpenTO, a new corpus of 2.2 million optimized structures covering 2 million unique boundary-condition configurations. On four public benchmarks and two challenging unseen tests, OAT lowers mean compliance up to 90% relative to the best prior models and delivers sub-1 second inference on a single GPU across resolutions from 64 x 64 to 256 x 256 and aspect ratios as high as 10:1. These results establish OAT as a general, fast, and resolution-free framework for physics-aware topology optimization and provide a large-scale dataset to spur further research in generative modeling for inverse design.
 </details>
 <strong><a href="https://arxiv.org/abs/2510.23667">📄 Arxiv</a></strong><br>
-<strong>Date:</strong> 2025-10-26
+<strong>Date:</strong> 2025-10-26<br>
+<span class="conference-badge">NeurIPS 2025</span>
 </div>
 
 <div class="publication-card">
@@ -31,7 +32,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   Process reward models (PRMs) play a central role in guiding inference-time scaling algorithms for large language models (LLMs). However, we observe that even state-of-the-art PRMs can be poorly calibrated. Specifically, they tend to overestimate the success probability that a partial reasoning step will lead to a correct final answer, particularly when smaller LLMs are used to complete the reasoning trajectory. To address this, we present a calibration approach -- performed via quantile regression -- that adjusts PRM outputs to better align with true success probabilities. Leveraging these calibrated success estimates and their associated confidence bounds, we introduce an instance-adaptive scaling (IAS) framework that dynamically adjusts the compute budget based on the estimated likelihood that a partial reasoning trajectory will yield a correct final answer. Unlike conventional methods that allocate a fixed number of reasoning trajectories per query, this approach adapts to each instance and reasoning step when using our calibrated PRMs. Experiments on mathematical reasoning benchmarks show that (i) our PRM calibration method achieves small calibration error, outperforming the baseline methods, (ii) calibration is crucial for enabling effective IAS, and (iii) the proposed IAS strategy reduces inference costs while maintaining final answer accuracy, utilizing less compute on more confident problems as desired.
 </details>
 <strong><a href="https://www.arxiv.org/abs/2506.09338">📄 Arxiv</a></strong><br>
-<strong>Date:</strong> 2025-06-11
+<strong>Date:</strong> 2025-06-11<br>
+<span class="conference-badge">NeurIPS 2025</span>
 </div>
 
 <div class="publication-card">
@@ -42,7 +44,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   Modern causal language models stack many attention blocks to improve performance, but not all blocks are necessary for every task. We propose Hopscotch, a simple yet effective method that identifies and skips attention blocks with least contributions to a task and adapts to preserve output quality. Hopscotch jointly optimizes which blocks to skip and how to scale the outputs of the remaining layers. By introducing lightweight, trainable scaling parameters to attention and MLP blocks, it mitigates distribution shifts in hidden states caused by removing attention blocks. Hopscotch does not modify model weights or require access to pretraining or instruction-tuning data, and is compatible with existing model compression techniques. When applied to 𝙻𝚕𝚊𝚖𝚊-𝟹.𝟷-𝟾𝙱 and 𝚀𝚠𝚎𝚗𝟸.𝟻-𝟽𝙱, Hopscotch achieves less than a 2% drop in performance even after skipping four attention blocks.
 </details>
 <strong><a href="https://arxiv.org/abs/2506.03303">📄 Arxiv</a> | <a href="https://youtube.com/live/1PGHYKqrE94?si=OkjefuYN7hK76NWU">🎥 Video</a></strong><br>
-<strong>Date:</strong> 2025-06-03
+<strong>Date:</strong> 2025-06-03<br>
+<span class="conference-badge">EMNLP 2025</span>
 </div>
 
 <div class="publication-card">
@@ -64,7 +67,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   The key-value (KV) cache accelerates LLMs decoding by storing KV tensors from previously generated tokens. It reduces redundant computation at the cost of increased memory usage. To mitigate this overhead, existing approaches compress KV tensors into lower-bit representations; however, quantization errors can accumulate as more tokens are generated, potentially resulting in undesired outputs. In this paper, we introduce SQuat (Subspace-orthogonal KV cache quantization). It first constructs a subspace spanned by query tensors to capture the most critical task-related information. During key tensor quantization, it enforces that the difference between the (de)quantized and original keys remains orthogonal to this subspace, minimizing the impact of quantization errors on the attention mechanism's outputs. SQuat requires no model fine-tuning, no additional calibration dataset for offline learning, and is grounded in a theoretical framework we develop. Through numerical experiments, we show that our method reduces peak memory by 2.17 to 2.82, improves throughput by 2.45 to 3.60, and achieves more favorable benchmark scores than existing KV cache quantization algorithms.
 </details>
 <strong><a href="https://arxiv.org/abs/2503.24358">📄 Arxiv</a> | <a href="https://github.com/Red-Hat-AI-Innovation-Team/SQuat">💻 Code</a> | <a href="https://ai-innovation.team/squat/">🌐 Website</a></strong><br>
-<strong>Date:</strong> 2025-03-31
+<strong>Date:</strong> 2025-03-31<br>
+<span class="conference-badge">COLM 2025</span>
 </div>
 
 <div class="publication-card">
@@ -75,7 +79,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   Model merging, a method that combines the parameters and embeddings of multiple fine-tuned large language models (LLMs), offers a promising approach to enhance model performance across various tasks while maintaining computational efficiency. This paper introduces Activation-Informed Merging (AIM), a technique that integrates the information from the activation space of LLMs into the merging process to improve performance and robustness. AIM is designed as a flexible, complementary solution that is applicable to any existing merging method. It aims to preserve critical weights from the base model, drawing on principles from continual learning (CL) and model compression. Utilizing a task-agnostic calibration set, AIM selectively prioritizes essential weights during merging. We empirically demonstrate that AIM significantly enhances the performance of merged models across multiple benchmarks. Our findings suggest that considering the activation-space information can provide substantial advancements in the model merging strategies for LLMs, with up to a 40% increase in benchmark performance.
 </details>
 <strong><a href="https://arxiv.org/abs/2502.02421">📄 Arxiv</a> | <a href="https://github.com/ahnobari/ActivationInformedMerging">💻 Code</a></strong><br>
-<strong>Date:</strong> 2025-02-04
+<strong>Date:</strong> 2025-02-04<br>
+<span class="conference-badge">NeurIPS 2025</span>
 </div>
 
 <div class="publication-card">
@@ -86,7 +91,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   Large language models (LLMs) have achieved significant performance gains via scaling up model sizes and/or data. However, recent evidence suggests diminishing returns from such approaches, motivating scaling the computation spent at inference time. Existing inference-time scaling methods, usually with reward models, cast the task as a search problem, which tends to be vulnerable to reward hacking as a consequence of approximation errors in reward models. In this paper, we instead cast inference-time scaling as a probabilistic inference task and leverage sampling-based techniques to explore the typical set of the state distribution of a state-space model with an approximate likelihood, rather than optimize for its mode directly. We propose a novel inference-time scaling approach by adapting particle-based Monte Carlo methods to this task. Our empirical evaluation demonstrates that our methods have a 4-16x better scaling rate over our deterministic search counterparts on various challenging mathematical reasoning tasks. Using our approach, we show that Qwen2.5-Math-1.5B-Instruct can surpass GPT-4o accuracy in only 4 rollouts, while Qwen2.5-Math-7B-Instruct scales to o1 level accuracy in only 32 rollouts. Our work not only presents an effective method to inference-time scaling, but also connects the rich literature in probabilistic inference with inference-time scaling of LLMs to develop more robust algorithms in future work.
 </details>
 <strong><a href="https://arxiv.org/abs/2502.01618">📄 Arxiv</a> | <a href="https://github.com/Red-Hat-AI-Innovation-Team/its_hub">💻 Code</a> | <a href="https://probabilistic-inference-scaling.github.io/">🌐 Website</a></strong><br>
-<strong>Date:</strong> 2025-02-03
+<strong>Date:</strong> 2025-02-03<br>
+<span class="conference-badge">NeurIPS 2025</span>
 </div>
 
 <div class="publication-card">
@@ -97,7 +103,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   The rise of large language models (LLMs) has created a significant disparity: industrial research labs with their computational resources, expert teams, and advanced infrastructures, can effectively fine-tune LLMs, while individual developers and small organizations face barriers due to limited resources. In this paper, we aim to bridge this gap by presenting a comprehensive study on supervised fine-tuning of LLMs using instruction-tuning datasets spanning diverse knowledge domains and skills. We focus on small-sized LLMs (3B to 7B parameters) for their cost-efficiency and accessibility. We explore various training configurations and strategies across four open-source pre-trained models. We provide detailed documentation of these configurations, revealing findings that challenge several common training practices, including hyperparameter recommendations from TULU and phased training recommended by Orca. Key insights from our work include: (i) larger batch sizes paired with lower learning rates lead to improved model performance on benchmarks such as MMLU, MTBench, and Open LLM Leaderboard; (ii) early-stage training dynamics, such as lower gradient norms and higher loss values, are strong indicators of better final model performance, enabling early termination of sub-optimal runs and significant computational savings; (iii) through a thorough exploration of hyperparameters like warmup steps and learning rate schedules, we provide guidance for practitioners and find that certain simplifications do not compromise performance; and (iv) we observed no significant difference in performance between phased and stacked training strategies, but stacked training is simpler and more sample efficient. With these findings holding robustly across datasets and models, we hope this study serves as a guide for practitioners fine-tuning small LLMs and promotes a more inclusive environment for LLM research.
 </details>
 <strong><a href="https://arxiv.org/abs/2412.13337">📄 Arxiv</a></strong><br>
-<strong>Date:</strong> 2024-12-17
+<strong>Date:</strong> 2024-12-17<br>
+<span class="conference-badge">ICLR 2025</span>
 </div>
 
 <div class="publication-card">
@@ -108,7 +115,8 @@ NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. W
   Estimating the uncertainty of responses from Large Language Models (LLMs) remains a critical challenge. While recent Bayesian methods have demonstrated effectiveness in quantifying uncertainty through low-rank weight updates, they typically require complex fine-tuning or post-training procedures. In this paper, we propose Training-Free Bayesianization (TFB), a simple yet theoretically grounded framework that efficiently transforms trained low-rank adapters into Bayesian ones without additional training. TFB systematically searches for the maximally acceptable level of variance in the weight posterior, constrained within a family of low-rank isotropic Gaussian distributions. Our theoretical analysis shows that under mild conditions, this search process is equivalent to KL-regularized variational optimization, a generalized form of variational inference. Through comprehensive experiments, we show that TFB achieves superior uncertainty estimation and generalization compared to existing methods while eliminating the need for complex Bayesianization training procedures.
 </details>
 <strong><a href="https://arxiv.org/abs/2412.05723">📄 Arxiv</a></strong><br>
-<strong>Date:</strong> 2024-12-07
+<strong>Date:</strong> 2024-12-07<br>
+<span class="conference-badge">NeurIPS 2025</span>
 </div>
 
 <div class="publication-card">

@@ -183,6 +183,18 @@
   color: var(--article-link-blue);
   margin-bottom: 0.3em;
 }
+.publication-card .conference-badge {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.25em 0.6em;
+  font-size: 0.85em;
+  font-weight: 600;
+  border-radius: 4px;
+  background: var(--background-alt-color, #f1f5f9);
+  color: var(--text-alt-color, #64748b);
+  border: 1px solid var(--border-color, #e2e8f0);
+  letter-spacing: 0.02em;
+}
 
 /* Video Cards */
 .video-card {
