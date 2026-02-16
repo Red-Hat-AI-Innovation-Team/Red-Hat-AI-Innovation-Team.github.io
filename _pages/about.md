@@ -57,9 +57,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/_site/images/about/Headshots/Shivchander.jpg" class="portfolio__link glightbox" data-glightbox='title: Shivchander Sudalairaj; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/Shivchander.jpg" class="portfolio__link glightbox" data-glightbox='title: Shivchander Sudalairaj; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/_site/images/about/Headshots/Shivchander.jpg" data-src="/_site/images/about/Headshots/Shivchander.jpg" class="portfolio__image lazy" alt="Picture of Shivchander Sudalairaj">
+          <img src="/images/about/Headshots/Shivchander.jpg" data-src="/images/about/Headshots/Shivchander.jpg" class="portfolio__image lazy" alt="Picture of Shivchander Sudalairaj">
         </a>
         <a href="https://scholar.google.com/citations?user=O71amfMAAAAJ&hl=en" target="_blank">Shivchander Sudalairaj</a>
       </div>
@@ -157,9 +157,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/_site/images/about/Headshots/Shabana.jpeg" class="portfolio__link glightbox" data-glightbox='title: Shabana Baig; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/Shabana.jpeg" class="portfolio__link glightbox" data-glightbox='title: Shabana Baig; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/_site/images/about/Headshots/Shabana.jpeg" data-src="/_site/images/about/Headshots/Shabana.jpeg" class="portfolio__image lazy" alt="Picture of Shabana Baig">
+          <img src="/images/about/Headshots/Shabana.jpeg" data-src="/images/about/Headshots/Shabana.jpeg" class="portfolio__image lazy" alt="Picture of Shabana Baig">
         </a>
         <a href="https://www.linkedin.com/in/shabana-baig-518036111/" target="_blank">Shabana Baig</a>
       </div>
