@@ -57,9 +57,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/shiv.png" class="portfolio__link glightbox" data-glightbox='title: Shivchander Sudalairaj; description: ; descPosition: bottom;'>
+        <a href="/_site/images/about/Headshots/Shivchander.jpg" class="portfolio__link glightbox" data-glightbox='title: Shivchander Sudalairaj; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/shiv.png" data-src="/images/about/Headshots/shiv.png" class="portfolio__image lazy" alt="Picture of Shivchander Sudalairaj">
+          <img src="/_site/images/about/Headshots/Shivchander.jpg" data-src="/_site/images/about/Headshots/Shivchander.jpg" class="portfolio__image lazy" alt="Picture of Shivchander Sudalairaj">
         </a>
         <a href="https://scholar.google.com/citations?user=O71amfMAAAAJ&hl=en" target="_blank">Shivchander Sudalairaj</a>
       </div>
@@ -92,16 +92,6 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/ligong.jpg" data-src="/images/about/Headshots/ligong.jpg" class="portfolio__image lazy" alt="Picture of Ligong Han">
         </a>
         <a href="https://phymhan.github.io" target="_blank">Ligong Han</a>
-      </div>
-    </div>
-
-    <div class="col col-3 col-d-6 col-t-12">
-      <div class="team-member">
-        <a href="/images/about/Headshots/nikhil.jpeg" class="portfolio__link glightbox" data-glightbox='title: Nikhil Nayak; description: ; descPosition: bottom;'>
-          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/nikhil.jpeg" data-src="/images/about/Headshots/nikhil.jpeg" class="portfolio__image lazy" alt="Picture of Nikhil Nayak">
-        </a>
-        <a href="https://www.linkedin.com/in/nikhil-na" target="_blank">Nikhil Nayak</a>
       </div>
     </div>
 
@@ -162,6 +152,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/Yi.jpeg" data-src="/images/about/Headshots/Yi.jpeg" class="portfolio__image lazy" alt="Picture of Yi Zheng">
         </a>
         <a href="https://www.linkedin.com/in/yz728/" target="_blank">Yi Zheng</a>
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/_site/images/about/Headshots/Shabana.jpeg" class="portfolio__link glightbox" data-glightbox='title: Shabana Baig; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/_site/images/about/Headshots/Shabana.jpeg" data-src="/_site/images/about/Headshots/Shabana.jpeg" class="portfolio__image lazy" alt="Picture of Shabana Baig">
+        </a>
+        <a href="https://www.linkedin.com/in/shabana-baig-518036111/" target="_blank">Shabana Baig</a>
       </div>
     </div>
 
@@ -232,6 +232,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/wenlong.jpg" data-src="/images/about/Headshots/wenlong.jpg" class="portfolio__image lazy" alt="Picture of Wenlong Zhao">
         </a>
         <a href="https://wenlongzhao094.github.io" target="_blank">Wenlong Zhao</a>,<br>UMass Amherst
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/nikhil.jpeg" class="portfolio__link glightbox" data-glightbox='title: Nikhil Nayak; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/nikhil.jpeg" data-src="/images/about/Headshots/nikhil.jpeg" class="portfolio__image lazy" alt="Picture of Nikhil Nayak">
+        </a>
+        <a href="https://www.linkedin.com/in/nikhil-na" target="_blank">Nikhil Nayak</a>
       </div>
     </div>
 
