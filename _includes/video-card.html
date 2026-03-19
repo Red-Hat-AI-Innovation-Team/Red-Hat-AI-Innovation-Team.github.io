@@ -3,7 +3,11 @@
     
     <div class="video-card-header">
       <div class="video-category">{{ video.category }}</div>
-      {% if video.embed_url %}
+      {% if video.drive_file_id %}
+      <div class="video-embed">
+        <iframe width="100%" height="200" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
+      </div>
+      {% elsif video.embed_url %}
       <div class="video-embed">
         <iframe width="100%" height="200" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
       </div>
@@ -12,7 +16,11 @@
 
     <div class="video-card-content">
       <h3 class="video-title">
+        {% if video.drive_file_id %}
+        <a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a>
+        {% else %}
         <a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a>
+        {% endif %}
       </h3>
 
       <p class="video-speaker">👤 Speaker: {{ video.speaker }}</p>
