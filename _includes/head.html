@@ -43,6 +43,10 @@
       document.documentElement.setAttribute("list", "");
       document.documentElement.classList.add('view-list');
     }
+
+    if (localStorage.getItem("petMode") === "cat") {
+      document.documentElement.classList.add('cat-mode');
+    }
   </script>
 
   <style>

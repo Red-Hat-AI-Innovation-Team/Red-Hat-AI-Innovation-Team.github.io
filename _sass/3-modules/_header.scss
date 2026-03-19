@@ -57,11 +57,11 @@
 }
 
 .dark-mode {
-  .logo__image--light {
+  .logo__image--light.logo__image--dog {
     display: none;
   }
 
-  .logo__image--dark {
+  .logo__image--dark.logo__image--dog {
     display: inline-block;
   }
 }
@@ -313,5 +313,68 @@
 
   .toggle-moon {
     display: none;
+  }
+}
+
+/* Toggle Pet (Cat/Dog Mode) */
+.toggle-pet {
+  display: inline;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-dog,
+.toggle-cat {
+  font-size: inherit;
+  color: var(--heading-font-color);
+  transition: $global-transition;
+}
+
+.toggle-cat {
+  display: none;
+}
+
+.cat-mode {
+  .toggle-cat {
+    display: inline;
+  }
+
+  .toggle-dog {
+    display: none;
+  }
+
+  .logo__image--cat {
+    display: inline-block;
+  }
+
+  .logo__image--dog {
+    display: none !important;
+  }
+}
+
+/* Cat mode header logos - hidden by default */
+.logo__image--cat {
+  display: none;
+}
+
+.cat-mode {
+  .logo__image--cat.logo__image--light {
+    display: inline-block;
+    mix-blend-mode: multiply;
+    filter: contrast(1.1);
+  }
+
+  .logo__image--cat.logo__image--dark {
+    display: none;
+  }
+
+  &.dark-mode {
+    .logo__image--cat.logo__image--light {
+      display: none;
+    }
+
+    .logo__image--cat.logo__image--dark {
+      display: inline-block;
+    }
   }
 }

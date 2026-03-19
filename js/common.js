@@ -21,8 +21,14 @@ document.addEventListener("DOMContentLoaded", function() {
     menuClose();
   });
 
+  var togglePet = document.querySelector(".toggle-pet");
+
   toggleTheme.addEventListener("click", () => {
     darkMode();
+  });
+
+  togglePet.addEventListener("click", () => {
+    catMode();
   });
 
   if (portfolioViewButton) {
@@ -51,6 +57,47 @@ document.addEventListener("DOMContentLoaded", function() {
       localStorage.setItem("theme", "dark");
       document.documentElement.setAttribute("dark", "");
     }
+  }
+
+
+  // Cat Mode
+  function catMode() {
+    if (html.classList.contains('cat-mode')) {
+      html.classList.remove('cat-mode');
+      localStorage.removeItem("petMode");
+      swapPortfolioImages('cat', 'lab');
+    } else {
+      html.classList.add('cat-mode');
+      localStorage.setItem("petMode", "cat");
+      swapPortfolioImages('lab', 'cat');
+    }
+  }
+
+  function swapPortfolioImages(from, to) {
+    var images = document.querySelectorAll('.portfolio__image');
+    images.forEach(function(img) {
+      var src = img.getAttribute('src');
+      var dataSrc = img.getAttribute('data-src');
+      if (src) {
+        img.setAttribute('src', swapPetPath(src, from, to));
+      }
+      if (dataSrc) {
+        img.setAttribute('data-src', swapPetPath(dataSrc, from, to));
+      }
+    });
+  }
+
+  function swapPetPath(path, from, to) {
+    var fromDir = from === 'lab' ? 'Black and White Labs' : 'Black and White Cats';
+    var toDir = to === 'lab' ? 'Black and White Labs' : 'Black and White Cats';
+    return path
+      .replace(fromDir, toDir)
+      .replace('/' + from + '-', '/' + to + '-');
+  }
+
+  // Apply cat mode to portfolio images on page load
+  if (localStorage.getItem("petMode") === "cat") {
+    swapPortfolioImages('lab', 'cat');
   }
 
 
