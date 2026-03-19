@@ -1,3 +1,21 @@
+- title: "Evolutionary Arms Races Between LLMs in Core War"
+  speaker: "Akarsh Kumar"
+  drive_file_id: "1PXeJHvrHC9S9xRfFq4K4asC0_3pSkPYy"
+  date: "2026-03-13"
+  category: "Random Samples"
+
+- title: "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models"
+  speaker: "Qizheng Zhang"
+  drive_file_id: "1mekX2EqiLGt2OSKqT5fWwV2KdsJgUY_x"
+  date: "2026-03-06"
+  category: "Random Samples"
+
+- title: "Few-Shot Diffusion Language Models"
+  speaker: "Tunyu Zhang"
+  drive_file_id: "1clxtxBIr7MPMdd6IlB77W_PDTrX1wdji"
+  date: "2026-02-27"
+  category: "Random Samples"
+
 - title: "Instance-Adaptive Inference-Time Scaling with Calibrated Process Reward Models"
   speaker: "Young Jin Park"
   youtube_id: "vLA0XLunuik"

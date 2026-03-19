@@ -364,5 +364,15 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://people.csail.mit.edu/yoonkim/" target="_blank">Yoon Kim</a>,<br>MIT
       </div>
     </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/haode.jpeg" class="portfolio__link glightbox" data-glightbox='title: Haode Qi; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/haode.jpeg" data-src="/images/about/Headshots/haode.jpeg" class="portfolio__image lazy" alt="Picture of Haode Qi">
+        </a>
+        <a href="https://www.linkedin.com/in/haode-qi-a54a0357/" target="_blank">Haode Qi</a>,<br>IBM
+      </div>
+    </div>
   </div>
 </div>

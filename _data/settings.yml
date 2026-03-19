@@ -59,11 +59,13 @@ other_repos:
   title: LLM Tools
   gallery:
     - image: /images/toolkit logos/Black and White Labs/lab-async-grpo.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-async-grpo-2.png
       title: async-grpo
       link: https://github.com/Red-Hat-AI-Innovation-Team/async-grpo
       description: Asynchronous GRPO for scalable reinforcement learning.
 
     - image: /images/toolkit logos/Black and White Labs/lab-hopscotch.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-hopscotch-2.png
       title: hopscotch
       link: /hopscotch/
       description: A method for skipping redundant attention blocks in language models
@@ -75,11 +77,13 @@ other_repos:
       description: Efficient training library for large language models up to 70B parameters on a single node.
 
     - image: /images/toolkit logos/Black and White Labs/lab-osft.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-osft-2.png
       title: orthogonal-subspace-learning
       link: https://github.com/Red-Hat-AI-Innovation-Team/orthogonal-subspace-learning
       description: Adaptive SVD-based continual learning method for LLMs.
 
     - image: /images/toolkit logos/Black and White Labs/lab-probabilistic-its.png
+      image_hover: /images/toolkit logos/Black and White Labs/lab-probabilistic-its-2.png
       title: probabilistic-inference-scaling
       link: https://github.com/probabilistic-inference-scaling/probabilistic-inference-scaling
       description: Inference-time scaling with particle filtering.
@@ -121,8 +125,8 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contact form
-  description: Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form.
+  email: rh.ai.innovation@gmail.com
+  description: Get in touch with the AI Innovation Team.
 
 
 #-------------------------------
