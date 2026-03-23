@@ -10,7 +10,7 @@ description: Research publications from the AI Innovation Team on LLM optimizati
 
 Below is a selection of recent publications from our team, showcasing our work in large language models, machine learning, and AI research. Publications are listed in reverse chronological order.
 
-NeurIPS 2025: We are proud to have 5 papers accepted at this years conference. We will add them below after the camera ready deadline later in October.
+NeurIPS 2025: We are proud to have 5 papers accepted at this year's conference.
 
 <div class="publication-card">
 <h3><a href="https://arxiv.org/abs/2510.23667" target="_blank" rel="noopener">Optimize Any Topology: A Foundation Model for Shape- and Resolution-Free Topology Optimization</a></h3>
