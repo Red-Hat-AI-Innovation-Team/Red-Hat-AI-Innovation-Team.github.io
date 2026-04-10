@@ -57,9 +57,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/Shivchander.jpg" class="portfolio__link glightbox" data-glightbox='title: Shivchander Sudalairaj; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/shivchander.jpg" class="portfolio__link glightbox" data-glightbox='title: Shivchander Sudalairaj; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Shivchander.jpg" data-src="/images/about/Headshots/Shivchander.jpg" class="portfolio__image lazy" alt="Picture of Shivchander Sudalairaj">
+          <img src="/images/about/Headshots/shivchander.jpg" data-src="/images/about/Headshots/shivchander.jpg" class="portfolio__image lazy" alt="Picture of Shivchander Sudalairaj">
         </a>
         <a href="https://scholar.google.com/citations?user=O71amfMAAAAJ&hl=en" target="_blank">Shivchander Sudalairaj</a>
       </div>
@@ -107,7 +107,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
                 <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/oleg.jpeg" class="portfolio__link glightbox" data-glightbox='title: oleg silkin; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/oleg.jpeg" class="portfolio__link glightbox" data-glightbox='title: Oleg Silkin; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/Headshots/oleg.jpeg" data-src="/images/about/Headshots/oleg.jpeg" class="portfolio__image lazy" alt="Picture of Oleg Silkin">
         </a>
@@ -137,9 +137,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
               <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/Mihir.png" class="portfolio__link glightbox" data-glightbox='title: Mihir Athale; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/mihir.png" class="portfolio__link glightbox" data-glightbox='title: Mihir Athale; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Mihir.png" data-src="/images/about/Headshots/Mihir.png" class="portfolio__image lazy" alt="Picture of Mihir Athale">
+          <img src="/images/about/Headshots/mihir.png" data-src="/images/about/Headshots/mihir.png" class="portfolio__image lazy" alt="Picture of Mihir Athale">
         </a>
         <a href="https://www.linkedin.com/in/mihirathale" target="_blank">Mihir Athale</a>
       </div>
@@ -147,9 +147,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
         <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/Yi.jpeg" class="portfolio__link glightbox" data-glightbox='title: Yi Zheng; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/yi.jpeg" class="portfolio__link glightbox" data-glightbox='title: Yi Zheng; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Yi.jpeg" data-src="/images/about/Headshots/Yi.jpeg" class="portfolio__image lazy" alt="Picture of Yi Zheng">
+          <img src="/images/about/Headshots/yi.jpeg" data-src="/images/about/Headshots/yi.jpeg" class="portfolio__image lazy" alt="Picture of Yi Zheng">
         </a>
         <a href="https://www.linkedin.com/in/yz728/" target="_blank">Yi Zheng</a>
       </div>
@@ -157,9 +157,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/Shabana.jpeg" class="portfolio__link glightbox" data-glightbox='title: Shabana Baig; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/shabana.jpeg" class="portfolio__link glightbox" data-glightbox='title: Shabana Baig; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Shabana.jpeg" data-src="/images/about/Headshots/Shabana.jpeg" class="portfolio__image lazy" alt="Picture of Shabana Baig">
+          <img src="/images/about/Headshots/shabana.jpeg" data-src="/images/about/Headshots/shabana.jpeg" class="portfolio__image lazy" alt="Picture of Shabana Baig">
         </a>
         <a href="https://www.linkedin.com/in/shabana-baig-518036111/" target="_blank">Shabana Baig</a>
       </div>
@@ -167,9 +167,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/Cole.png" class="portfolio__link glightbox" data-glightbox='title: Cole Hurwitz; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/cole.png" class="portfolio__link glightbox" data-glightbox='title: Cole Hurwitz; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Cole.png" data-src="/images/about/Headshots/Cole.png" class="portfolio__image lazy" alt="Picture of Cole Hurwitz">
+          <img src="/images/about/Headshots/cole.png" data-src="/images/about/Headshots/cole.png" class="portfolio__image lazy" alt="Picture of Cole Hurwitz">
         </a>
         <a href="https://colehurwitz.github.io/" target="_blank">Cole Hurwitz</a>
       </div>
@@ -187,9 +187,9 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
   <div class="row">
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        <a href="/images/about/Headshots/Luke.jpeg" class="portfolio__link glightbox" data-glightbox='title: Luke Inglis; description: ; descPosition: bottom;'>
+        <a href="/images/about/Headshots/luke.jpeg" class="portfolio__link glightbox" data-glightbox='title: Luke Inglis; description: ; descPosition: bottom;'>
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/Luke.jpeg" data-src="/images/about/Headshots/Luke.jpeg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
+          <img src="/images/about/Headshots/luke.jpeg" data-src="/images/about/Headshots/luke.jpeg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
         </a>
         <a href="https://www.linkedin.com/in/luke-inglis/" target="_blank">Luke Inglis</a>,<br>Red Hat
       </div>
@@ -201,7 +201,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/Headshots/aldo.jpg" data-src="/images/about/Headshots/aldo.jpg" class="portfolio__image lazy" alt="Picture of Aldo Pareja">
         </a>
-        <a href="https://scholar.google.com/citations?user=Qpl3KlIAAAAJ&hl=en" target="_blank">Aldo Pareja</a>,<br> 
+        <a href="https://scholar.google.com/citations?user=Qpl3KlIAAAAJ&hl=en" target="_blank">Aldo Pareja</a>,<br>Stealth startup
       </div>
     </div>
 

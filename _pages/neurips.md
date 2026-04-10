@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "NeurIPS 2025"
 permalink: /neurips/
 description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our latest research on LLMs, inference-time scaling, and AI optimization.
 ---
@@ -347,7 +347,7 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
         <div class="team-member-name">Akash Srivastava</div>
       </div>
       <div class="team-member">
-        <img src="/images/about/Headshots/Cole.png" alt="Cole Hurwitz">
+        <img src="/images/about/Headshots/cole.png" alt="Cole Hurwitz">
         <div class="team-member-name">Cole Hurwitz</div>
       </div>
       <div class="team-member">
@@ -363,7 +363,7 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
         <div class="team-member-name">Hao Wang</div>
       </div>
       <div class="team-member">
-        <img src="/images/about/Headshots/kai.png" alt="Kai Xu">
+        <img src="/images/about/Headshots/kai-with-cookie-sq.png" alt="Kai Xu">
         <div class="team-member-name">Kai Xu</div>
       </div>
       <div class="team-member">
@@ -383,7 +383,7 @@ description: AI Innovation Team at NeurIPS 2025 - Meet us and learn about our la
         <div class="team-member-name">Rohan Awhad</div>
       </div>
       <div class="team-member">
-        <img src="/images/about/Headshots/shiv.png" alt="Shivchander Sudalairaj">
+        <img src="/images/about/Headshots/shivchander.jpg" alt="Shivchander Sudalairaj">
         <div class="team-member-name">Shivchander Sudalairaj</div>
       </div>
     </div>

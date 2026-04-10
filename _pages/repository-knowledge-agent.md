@@ -108,7 +108,7 @@ permalink: /repository-knowledge-agent/
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: #007bff;
+  background: var(--accent-color, #007bff);
   color: white !important;
   text-decoration: none;
   padding: 1rem 2rem;
@@ -122,7 +122,7 @@ permalink: /repository-knowledge-agent/
 }
 
 .download-button:hover {
-  background: #0056b3;
+  background: var(--accent-color-hover, #0056b3);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   color: white !important;

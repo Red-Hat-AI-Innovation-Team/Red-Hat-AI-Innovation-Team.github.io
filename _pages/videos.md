@@ -37,13 +37,7 @@ Random Samples is a weekly seminar series that airs live on our Red Hat YouTube 
   {% assign random_samples = site.data.videos | where: "category", "Random Samples" | sort: "date" | reverse %}
   {% for video in random_samples %}
   <div class="video-card">
-    {% if video.drive_file_id %}
-    <iframe width="300" height="170" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}</p>
-    {% else %}
-    <iframe width="300" height="170" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}</p>
-    {% endif %}
+    {% include video-card.html width="300" height="170" %}
   </div>
   {% endfor %}
 </div>
@@ -60,15 +54,7 @@ Hosted by Dr. Akash Srivastava (Red Hat) and Isha Puri (MIT), this series distil
   {% assign no_math_ai = site.data.videos | where: "category", "No Math AI" | sort: "date" | reverse %}
   {% for video in no_math_ai %}
   <div class="video-card">
-    {% if video.drive_file_id %}
-    <iframe width="300" height="170" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
-    {% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
-    {% else %}
-    <iframe width="300" height="170" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
-    {% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
-    {% endif %}
+    {% include video-card.html width="300" height="170" %}
   </div>
   {% endfor %}
 </div>
@@ -81,15 +67,7 @@ Hosted by Dr. Akash Srivastava (Red Hat) and Isha Puri (MIT), this series distil
   {% assign other_talks = site.data.videos | where: "category", "Other Select Talks" | sort: "date" | reverse %}
   {% for video in other_talks %}
   <div class="video-card">
-    {% if video.drive_file_id %}
-    <iframe width="300" height="170" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
-    {% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
-    {% else %}
-    <iframe width="300" height="170" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
-    <p><strong><a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
-    {% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
-    {% endif %}
+    {% include video-card.html width="300" height="170" %}
   </div>
   {% endfor %}
 </div>
