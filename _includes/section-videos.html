@@ -19,7 +19,11 @@
       {% if site.data.videos.size > 0 %}
         {% assign sorted_videos = site.data.videos | sort: 'date' | reverse %}
         {% for video in sorted_videos offset:0 limit:3 %}
-          {% include video-card.html %}
+          <div class="col col-4 col-d-6 col-t-12">
+            <div class="video-card-wrapper">
+              {% include video-card.html %}
+            </div>
+          </div>
         {% endfor %}
       {% endif %}
     </div>

@@ -1,5 +1,6 @@
 ---
 layout: none
+title: "Getting reasoning models enterprise ready"
 image: '/images/posts/reasoning-blog.png'
 description: Customize reasoning models with synthetic data generation for enterprise deployment. Learn techniques from Red Hat's AI Innovation Team.
 ---

@@ -1,34 +1,9 @@
-<div class="col col-4 col-d-6 col-t-12">
-  <div class="video-card-wrapper">
-    
-    <div class="video-card-header">
-      <div class="video-category">{{ video.category }}</div>
-      {% if video.drive_file_id %}
-      <div class="video-embed">
-        <iframe width="100%" height="200" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
-      </div>
-      {% elsif video.embed_url %}
-      <div class="video-embed">
-        <iframe width="100%" height="200" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
-      </div>
-      {% endif %}
-    </div>
-
-    <div class="video-card-content">
-      <h3 class="video-title">
-        {% if video.drive_file_id %}
-        <a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a>
-        {% else %}
-        <a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a>
-        {% endif %}
-      </h3>
-
-      <p class="video-speaker">👤 Speaker: {{ video.speaker }}</p>
-      
-      {% if video.spotify_url %}
-      <p class="video-spotify">🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a></p>
-      {% endif %}
-    </div>
-    
-  </div>
-</div>
+{% if video.drive_file_id %}
+<iframe width="{{ include.width | default: '100%' }}" height="{{ include.height | default: '200' }}" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
+<p><strong><a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
+{% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
+{% else %}
+<iframe width="{{ include.width | default: '100%' }}" height="{{ include.height | default: '200' }}" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
+<p><strong><a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
+{% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
+{% endif %}

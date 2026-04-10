@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Hopscotch"
 permalink: /hopscotch/
 description: Hopscotch - Discovering and skipping redundant attention blocks in language models. Achieve model compression without modifying weights or requiring retraining data.
 ---
