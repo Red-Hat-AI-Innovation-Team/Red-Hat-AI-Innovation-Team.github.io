@@ -48,7 +48,7 @@ portfolio:
     - image: /images/toolkit logos/Black and White Labs/lab-sdg.png
       image_hover: /images/toolkit logos/Black and White Labs/lab-sdg-2.png
       title: sdg_hub
-      link: https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub
+      link: https://ai-innovation.team/sdg_hub/
       description: Synthetic data generation pipelines 
 
     - image: /images/toolkit logos/Black and White Labs/lab-training-hub.png
