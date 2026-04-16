@@ -4,6 +4,7 @@ title: Update 2 - Lessons on Reproducing R1-like Reasoning in Small LLMs without
 date: 2025-02-07
 image:  'https://probabilistic-inference-scaling.github.io/assets/images/process_video_cover.jpg'
 tags:   [reasoning, inference-time-scaling]
+hub:    [its-hub]
 description: Second update on R1 reasoning research - new results on training small LLMs with synthetic reasoning data and particle filtering methods.
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: none
 image: '/images/posts/rhd-logo.png'
+hub:    [training-hub]
 description: Post-training adapts language models for specific, safe, and practical uses. This overview highlights key methods and the open source training_hub library.
 ---
 

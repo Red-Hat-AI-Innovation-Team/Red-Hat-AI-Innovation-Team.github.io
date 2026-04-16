@@ -4,6 +4,7 @@ title: Lessons on Reproducing R1-like Reasoning in Small LLMs without using Deep
 date: 2025-02-05
 image:  'https://probabilistic-inference-scaling.github.io/assets/images/process_video_cover.jpg'
 tags:   [reasoning, inference-time-scaling]
+hub:    [its-hub]
 description: Learn how to reproduce R1-like reasoning in small LLMs using particle filtering, synthetic data, and GRPO - achieving GPT-4o accuracy with only 4 rollouts.
 ---
 

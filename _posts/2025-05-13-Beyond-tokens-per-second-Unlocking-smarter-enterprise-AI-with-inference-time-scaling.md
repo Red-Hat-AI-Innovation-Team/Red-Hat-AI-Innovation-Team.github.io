@@ -3,6 +3,7 @@ layout: none
 title: "Beyond tokens per second: Unlocking smarter enterprise AI with inference-time scaling"
 date: 2025-05-13
 image: '/images/posts/its-blog.png'
+hub:    [its-hub]
 description: Discover inference-time scaling techniques that improve AI quality and reliability for enterprise applications beyond just speed optimization.
 ---
 

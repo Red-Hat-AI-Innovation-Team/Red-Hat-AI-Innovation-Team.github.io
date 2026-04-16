@@ -2,6 +2,7 @@
 layout: none
 title: "Get started with language model post-training using Training Hub"
 image: '/images/posts/rhd-logo.png'
+hub:    [training-hub]
 description: "Introducing Training Hub: An open source, algorithm-centered library for LLM training."
 ---
 

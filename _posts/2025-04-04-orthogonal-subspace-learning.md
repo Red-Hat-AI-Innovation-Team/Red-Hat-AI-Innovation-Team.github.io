@@ -3,6 +3,7 @@ layout: post
 title: "Sculpting Subspaces: How We Solved Continual Learning in Large Language Models"
 date: 2025-04-04
 image:  '/images/posts/2025-04-04-orthogonal-subspace-learning/method_overview.png'
+hub:    [training-hub]
 description: Learn how our adaptive SVD method enables continual learning in LLMs with near-zero catastrophic forgetting, achieving 7% higher accuracy than baselines.
 ---
 

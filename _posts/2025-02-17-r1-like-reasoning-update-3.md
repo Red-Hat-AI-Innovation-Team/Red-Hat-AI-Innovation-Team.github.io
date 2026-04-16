@@ -4,6 +4,7 @@ title: Update 3 - On Reasoning vs Inference-time scaling - Lessons on Reproducin
 date: 2025-02-17
 image:  'https://probabilistic-inference-scaling.github.io/assets/images/process_video_cover.jpg'
 tags:   [reasoning, inference-time-scaling]
+hub:    [its-hub]
 description: Understanding the distinction between reasoning and inference-time scaling in LLMs - insights from our R1 reproduction experiments.
 ---
 

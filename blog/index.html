@@ -25,7 +25,14 @@ better!'
 <!-- end hero -->
 
 <div class="container">
-  <div class="row animate">
+  <div class="hub-filter">
+    <button class="hub-filter__btn hub-filter__btn--active" data-filter="all">All</button>
+    <button class="hub-filter__btn" data-filter="its-hub">ITS Hub</button>
+    <button class="hub-filter__btn" data-filter="sdg-hub">SDG Hub</button>
+    <button class="hub-filter__btn" data-filter="training-hub">Training Hub</button>
+  </div>
+
+  <div class="row animate" id="blog-posts">
     {% if site.posts.size > 0 %}
       {% for post in paginator.posts %}
         {% include article-blog.html %}
@@ -35,5 +42,30 @@ better!'
 </div>
 
 {% include pagination.html %}
+
+<script>
+(function() {
+  var buttons = document.querySelectorAll('.hub-filter__btn');
+  var posts = document.querySelectorAll('#blog-posts .article');
+
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var filter = this.getAttribute('data-filter');
+
+      buttons.forEach(function(b) { b.classList.remove('hub-filter__btn--active'); });
+      this.classList.add('hub-filter__btn--active');
+
+      posts.forEach(function(post) {
+        var hubs = post.getAttribute('data-hub') || '';
+        if (filter === 'all' || hubs.indexOf(filter) !== -1) {
+          post.style.display = '';
+        } else {
+          post.style.display = 'none';
+        }
+      });
+    });
+  });
+})();
+</script>
 
 {% include section-subscribe.html %}
