@@ -89,6 +89,11 @@ other_repos:
       title: probabilistic-inference-scaling
       link: https://github.com/probabilistic-inference-scaling/probabilistic-inference-scaling
       description: Inference-time scaling with particle filtering.
+    
+    - image: /images/gallery-05.jpg
+      title: reward-hub
+      link: https://github.com/Red-Hat-AI-Innovation-Team/reward_hub
+      description: Diverse hub of off-the-shelf reward models, such as DrSow, Qwen-PRM, Skywork RM
 
     - image: /images/toolkit logos/Black and White Labs/lab-reward-hub.png
       image_hover: /images/toolkit logos/Black and White Labs/lab-reward-hub-2.png
