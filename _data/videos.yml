@@ -1,3 +1,27 @@
+- title: "Towards Self-Adapting Models"
+  speaker: "Jyo Pari"
+  drive_file_id: "11QWeBYAEttwJFjtkC-2r7vmjsU5yU4uQ"
+  date: "2026-04-17"
+  category: "Random Samples"
+
+- title: "Self-Distillation as a New Framework for Continual Learning"
+  speaker: "Idan Shenfeld"
+  drive_file_id: "1XmOONJQeUq9mZTXxSnndmkqIn_-EiBq7"
+  date: "2026-04-10"
+  category: "Random Samples"
+
+- title: "Reasoning with Sampling: Your Base Model is Smarter Than You Think"
+  speaker: "Aayush Karan"
+  drive_file_id: "1CFy1Rs5PEjeMFw5OlNTrJojBljp0Kyg9"
+  date: "2026-04-03"
+  category: "Random Samples"
+
+- title: "Advancing Real-World Long-Horizon Tool-Using LLM Agents"
+  speaker: "Zhenting Wang"
+  drive_file_id: "1ZzmL-De_Gnc70Fn7qj3goG5ndRyDypra"
+  date: "2026-03-27"
+  category: "Random Samples"
+
 - title: "Nondeterminism in LLM Inference & Training-Rollout Mismatch"
   speaker: "Xinheng Ding"
   drive_file_id: "1V9tz2LyqzxiwWd0dYDM0mVEnc_lpN5VE"
