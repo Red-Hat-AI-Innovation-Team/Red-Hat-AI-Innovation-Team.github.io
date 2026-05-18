@@ -13,6 +13,17 @@ Below is a selection of recent publications from our team, showcasing our work i
 We are proud to have 5 papers accepted at NeurIPS 2025.
 
 <div class="publication-card">
+<h3><a href="https://haowang94.github.io/files/specbench.pdf" target="_blank" rel="noopener">Turning Intent into Specifications: A Benchmark and an Interactive User-Assistant Agent</a></h3>
+<strong>Authors:</strong> <a href="https://scholar.google.com/citations?hl=en&user=A3WtYhAAAAAJ" target="_blank">Hao Wang</a>, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, <a href="https://scholar.google.com/citations?user=kf3C60wAAAAJ" target="_blank">Kai Xu</a>, <a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" target="_blank">Akash Srivastava</a><br>
+<details>
+  <summary>View Abstract</summary>
+  Today's agents are highly effective at implementing well-scoped software design plans, but user intent is often vague and admits multiple equally valid solutions. In this paper, we introduce SpecBench, a new benchmark for evaluating an agent's ability to translate user intent into a structured, executable specification that aligns with user preferences. The agent is given access to past user conversations and may interact with the user for a fixed number of rounds to ask clarifying questions. We find that existing agents exhibit two extreme behaviors: they either (i) struggle to collaborate proactively with users, entering implementation mode too quickly while overestimating their understanding of user preferences, or (ii) exhaust their question budget by asking about every ambiguous design choice. To address this limitation, we introduce a user-assistant agent: Buddy. It follows a workflow inspired by classical morphological analysis, decomposing user intent into a structured space of design dimensions and candidate choices. It then creates simulated users to evaluate these choices, before engaging the real user to resolve remaining ambiguities and finalize the specification. By shifting the focus from execution to specification, SpecBench and Buddy emphasize agent-user collaboration (not just code generation) as a key frontier in future agent design.
+</details>
+<strong><a href="https://haowang94.github.io/files/specbench.pdf">📄 Paper</a> | <a href="https://github.com/haowang94/intent2spec">💻 Code</a> | <a href="https://huggingface.co/datasets/haowang94/specbench">🤗 Data</a> | <a href="https://haowang94.github.io/blog/specbench/">📝 Blog</a> | <a href="https://ai-innovation.team/specbench/">🌐 Website</a></strong><br>
+<strong>Date:</strong> 2026-05-18
+</div>
+
+<div class="publication-card">
 <h3><a href="https://arxiv.org/abs/2510.23667" target="_blank" rel="noopener">Optimize Any Topology: A Foundation Model for Shape- and Resolution-Free Topology Optimization</a></h3>
 <strong>Authors:</strong> Amin Heyrani Nobari, Lyle Regenwetter, Cyril Picard, <a href="https://scholar.google.com/citations?user=n2v43R4AAAAJ&hl=en" target="_blank">Ligong Han</a>, Faez Ahmed<br>
 <details>
