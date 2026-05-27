@@ -31,7 +31,7 @@ description: Watch our AI research talks, tutorials, and discussions on LLMs, ma
 
 ## 🎥 Random Samples {#random-samples}
 
-Random Samples is a weekly seminar series that airs live on our Red Hat YouTube page.
+Random Samples is a weekly seminar series that airs live on our Red Hat YouTube page. <a href="/random-samples-catalog/" class="catalog-link">View full catalog &rarr;</a>
 
 <div class="video-grid">
   {% assign random_samples = site.data.videos | where: "category", "Random Samples" | sort: "date" | reverse %}

@@ -85,6 +85,7 @@
   embed_url: "https://www.youtube.com/embed/vLA0XLunuik"
   date: "2025-10-03"
   category: "Random Samples"
+  abstract: "Process reward models (PRMs) play a central role in guiding inference-time scaling algorithms for LLMs. However, even state-of-the-art PRMs can be poorly calibrated. To address this, we present a calibration approach that adjusts PRM outputs to better align with true success probabilities. We introduce an instance-adaptive scaling framework that dynamically adjusts the inference budget based on the estimated likelihood that a partial reasoning trajectory will yield a correct final answer. Experiments on math reasoning benchmarks show that (i) our PRM calibration method achieves small calibration error, outperforming the baseline methods, (ii) calibration is crucial for enabling effective adaptive scaling, and (iii) the proposed IAS strategy reduces inference costs while maintaining final accuracy."
 
 - title: "Activation-Informed Merging of Large Language Models"
   speaker: "Amin Heyrani Nobari & Kaveh Alim"
@@ -93,6 +94,7 @@
   youtube_url: "https://www.youtube.com/watch?v=lHDrnDWZk5k"
   date: "2025-04-11"
   category: "Random Samples"
+  abstract: "Join us for a talk on merging LLM experts, combining the parameters and embeddings of multiple fine-tuned LLMs to enhance performance across various tasks while maintaining computational efficiency. We introduce Activation-Informed Merging (AIM), a technique that integrates activation space information into the merging process to improve performance and robustness of merging methods. AIM is a flexible, complementary solution applicable to any existing merging method, motivated by continual learning and model compression principles, it is designed to preserve salient weights from pre-training to enhance merging outcomes with empirical evidence showing up to a 40% increase in benchmark performance."
 
 - title: "Scaling Inference Time Scaling: Subspace-orthogonal KV Cache Quantization"
   speaker: "Hao Wang, Ligong Han"
@@ -172,6 +174,7 @@
   embed_url: "https://www.youtube.com/embed/1PGHYKqrE94?si=OkjefuYN7hK76NWU"
   date: "2025-08-08"
   category: "Random Samples"
+  abstract: "Join us for a presentation and discussion on Hopscotch, a method produced by Red Hat's AI Innovation team aimed at understanding and reducing redundancy in language models. With Hopscotch, we can skip entire attention blocks within a model, offering improved inference speeds and memory savings with minimal quality drop-off. This coarse-grained method also provides insights into the frequency of task-specific redundancies within language models, and just how inefficient large models may be today."
 
 - title: "Grounding Feedback is All You Need: Aligning Small Vision-Language Models"
   speaker: "Giorgio Giannone"
@@ -180,6 +183,7 @@
   embed_url: "https://www.youtube.com/embed/ddnRm-OHm1k?si=VN4JLkyEEXaawE0c"
   date: "2025-07-18"
   category: "Random Samples"
+  abstract: "While recent vision-language models (VLMs) excel at integrating visual and linguistic information, their performance hinges on vast quantities of curated image-text pairs. This reliance makes the alignment process both time-consuming and resource-intensive. In this talk, I will introduce Sampling-based Vision Projection (SVP), a novel framework that improves vision-language alignment using automated feedback and minimal human supervision. Our results show that SVP significantly enhances image captioning, improves object recall, and reduces hallucination, enabling smaller models to match the performance of much larger systems."
 
 - title: "On scalable RL in the era of agentic LLMs"
   speaker: "Aldo Pareja"
@@ -188,6 +192,7 @@
   embed_url: "https://www.youtube.com/embed/qenmyHH87es?si=iOoAhJfK5Ktux6T8"
   date: "2025-07-11"
   category: "Random Samples"
+  abstract: "As AI progresses beyond individual models toward tool-using, multi-agent systems, a new frontier is emerging, one where language models act over time, coordinate, and interface with real-world environments. These agentic systems promise to automate complex tasks, but realizing their full potential will require more than just scale. This talk will focus on the broader challenge of optimizing interactive AI behaviors, and the limitations of conventional supervised fine-tuning in such settings. I will introduce async-grpo, a novel high-performance reinforcement learning library purpose-built for training language models."
 
 - title: "LLM Meets Cache: From Application to Architecture"
   speaker: "Shuhang Lin"
@@ -196,6 +201,7 @@
   embed_url: "https://www.youtube.com/embed/7bpANF68hNE?si=_62Vqz5gHt5VI_z4"
   date: "2025-06-27"
   category: "Random Samples"
+  abstract: "Large Language Models are powerful yet resource-intensive systems that excel across numerous domains, including autonomous agents, complex reasoning, and content generation. However, their computational demands present significant challenges for practical deployment and scalability. Caching serves as a critical optimization strategy for reusing computational results and reducing redundant processing. In this presentation, we will explore cache design from two key perspectives: application-layer agent caching for efficient retrieval and response generation, and model-layer architectural caching including quantized KV cache implementations for memory efficiency."
 
 - title: "Accelerating LLM Knowledge Learning and Unlearning Research via Unified Frameworks"
   speaker: "Wenlong Zhao"
@@ -204,6 +210,7 @@
   embed_url: "https://www.youtube.com/embed/Rzq3Cs_fpoI?si=tgmfWOLh0j3dDjXF"
   date: "2025-06-13"
   category: "Random Samples"
+  abstract: "General purpose LLMs may struggle to answer knowledge-intensive questions grounded in specialized document collections. The first part of the presentation will discuss recent literature of injecting specialized knowledge into LLM parameters and propose an extensible framework for knowledge acquisition methods. The second part will cover OpenUnlearning, an extensible framework designed to benchmark both unlearning methods and evaluation metrics for LLMs, integrating 9 unlearning algorithms, 16 evaluation methods, and 450+ model checkpoints."
 
 - title: "Inference Time Scaling for Enterprises"
   speaker: "Matt Hicks, Chris Wright"
@@ -221,6 +228,7 @@
   embed_url: "https://www.youtube.com/embed/6LYnnCF06Y4?si=Z5l0Bak4Nx6ffDnG"
   date: "2025-05-09"
   category: "Random Samples"
+  abstract: "This session will introduce a groundbreaking combinatorial approach to neural network interpretability, based on research from Nir Shavit and Micah Adler at MIT CSAIL, and Dan Alistarh at IST Austria. The approach focuses on the relationships within the network's learned weights and biases, offering a new way to decode how neural networks compute logic. We'll explore the Feature Channel Coding Hypothesis, which reveals how neural networks compute Boolean expressions by mapping input features to combinations of neurons, effectively forming codes for each feature."
 
 - title: "Synthetic Data Generation via SDG-Hub"
   speaker: "Abhishek Bhandwaldar, Shivchander Sudalairaj, Akash Srivastava"
@@ -229,6 +237,7 @@
   embed_url: "https://www.youtube.com/embed/aGKCViWjAmA?si=fymOzWq9bwDksJuT"
   date: "2025-05-02"
   category: "Random Samples"
+  abstract: "In this talk, we will introduce SDG Hub, an open-source toolkit developed at Red Hat for customizing language models using synthetic data. We will begin by unpacking what synthetic data means in the context of LLMs, and how it enables model customization. The session will explore SDG Hub's core components: prompts, blocks, and flows, and demonstrate how users can compose, extend, or modify pipelines to fit specific tasks."
 
 - title: "Continual Post-Training"
   speaker: "Nikhil Nayak, Krishnateja Killamsetty"
@@ -237,6 +246,7 @@
   embed_url: "https://www.youtube.com/embed/A5Eg1RZK3oE?si=AdhBuX7Q0h1lpqNH"
   date: "2025-04-25"
   category: "Random Samples"
+  abstract: "As large language models transition from static systems to dynamic components in real-world applications, a major challenge emerges: how can we teach them new tasks without making them forget what they've already learned? In this talk, we'll introduce a practical and theoretically grounded method for post-training continual learning that enables full-model fine-tuning, without increasing model size or compromising general capabilities. The key insight lies in constraining updates to carefully selected low-rank subspaces."
 
 - title: "Generative Optimization in Engineering Design"
   speaker: "Dr. Faez Ahmed"
@@ -254,6 +264,7 @@
   embed_url: "https://www.youtube.com/embed/T8XDkZuv7O4?si=_AZVC_fy5t0d4bOr"
   date: "2025-04-18"
   category: "Random Samples"
+  abstract: "LLMs have owned the stage, but with size comes complexity. This talk explores the evolving landscape of LLM Compression, from the latest SOTA research to real-world deployments. We'll break down the high-level effects of techniques such as quantization and sparsity and their tradeoffs between accuracy and performance. Additionally, we'll walk through the differences between academic and real-world benchmarks, what's ready for production today, what's sitting in the research lab, and what it will take to close the gap."
 
 - title: "Inference-time scaling: How small models beat the big ones"
   speaker: "Shivchander Sudalairaj, GX Xu, Kai Xu"
