@@ -5,6 +5,7 @@
   youtube_url: "https://www.youtube.com/watch?v=F-Zhrt4ej0g"
   date: "2026-05-15"
   category: "Random Samples"
+  abstract: "Reinforcement learning (RL) improves language models' reasoning on difficult QA tasks, but common binary correctness rewards can encourage guessing, harm calibration, and increase hallucinations. We introduce RLCR (Reinforcement Learning with Calibration Rewards), which trains models to output both answers and confidence estimates by adding a Brier-score calibration reward to standard correctness rewards. Results show that existing reasoning training methods can be straightforwardly modified to additionally optimize for calibration, and that this improves in turn their accuracy, robustness, and scalability."
 
 - title: "Agent Factories for High-Level Synthesis"
   speaker: "Abhishek Bhandwaldar, Akash Srivastava"
@@ -13,6 +14,7 @@
   youtube_url: "https://www.youtube.com/watch?v=Y32TpjV3ghQ"
   date: "2026-05-01"
   category: "Random Samples"
+  abstract: "We study whether general-purpose AI coding agents, with no hardware-specific training, can optimize chip designs. Our method, HLS Factory, builds and coordinates multiple autonomous agents that iteratively modify code, compile it to hardware circuits, and learn from the results. By scaling the number of agents, we see speedup go up across twelve benchmarks, with the best results on harder problems where agents discover algorithmic restructurings that traditional search methods cannot reach. In our best case, one agent out of ten discovered an algorithmic restructuring that cut latency 11x and area 32x, a design no parameter search or single agent would have found."
 
 - title: "Towards Self-Adapting Models"
   speaker: "Jyo Pari"
@@ -21,6 +23,7 @@
   youtube_url: "https://www.youtube.com/watch?v=_5k29KwWnyM"
   date: "2026-04-17"
   category: "Random Samples"
+  abstract: "LLMs are powerful but static, lacking the ability to update their weights for new tasks or knowledge. We introduce Self-Adapting LLMs (SEAL), a framework where models generate their own finetuning data and update instructions. Given an input, the model produces a self-edit that may restructure information, set optimization parameters, or use tools for augmentation and training. These edits enable persistent weight updates via supervised finetuning. An RL loop trains the model to create effective self-edits using downstream performance as the reward. Unlike prior methods that rely on external modules, SEAL allows models to control their own adaptation, showing promising results in knowledge integration and few-shot generalization."
 
 - title: "Self-Distillation as a New Framework for Continual Learning"
   speaker: "Idan Shenfeld"
@@ -29,6 +32,7 @@
   youtube_url: "https://www.youtube.com/watch?v=kl-j09kJ0xk"
   date: "2026-04-10"
   category: "Random Samples"
+  abstract: "Catastrophic forgetting remains a central challenge in continual learning and the practical fine-tuning of large models, yet even basic questions about why different training algorithms forget at different rates remain unclear. In this talk, we present our discovery that when fine-tuning large models on a new task, on-policy learning consistently forgets far less than supervised fine-tuning, even when both methods reach similar performance. Building upon this insight, we present Self-Distillation, a new family of algorithms for LLM fine-tuning. Self-Distillation leverages in-context learning by using a demonstration-conditioned model as its own teacher, generating on-policy training signals that preserve prior capabilities while acquiring new skills."
 
 - title: "Reasoning with Sampling: Your Base Model is Smarter Than You Think"
   speaker: "Aayush Karan"
@@ -37,6 +41,7 @@
   youtube_url: "https://www.youtube.com/watch?v=di_M8_S-0SQ"
   date: "2026-04-03"
   category: "Random Samples"
+  abstract: "Frontier reasoning models have exhibited incredible capabilities across a wide array of disciplines, driven by posttraining large language models with reinforcement learning. However, despite the widespread success of this paradigm, much of the literature has been devoted to disentangling truly novel behaviors that emerge during RL but are not present in the base models. In our work, we approach this question from a different angle, instead asking whether comparable reasoning capabilities can be elicited from base models at inference time by pure sampling, without any additional training. Inspired by Markov chain Monte Carlo (MCMC) techniques for sampling from sharpened distributions, we propose a simple iterative sampling algorithm leveraging the base models' own likelihoods. Over different base models, we show that our algorithm offers substantial boosts in reasoning that nearly match and even outperform those from RL on a wide variety of single-shot tasks, including MATH500, HumanEval, and GPQA."
 
 - title: "Advancing Real-World Long-Horizon Tool-Using LLM Agents"
   speaker: "Zhenting Wang"
@@ -45,6 +50,7 @@
   youtube_url: "https://www.youtube.com/watch?v=OHWpr0vzneQ"
   date: "2026-03-27"
   category: "Random Samples"
+  abstract: "Recent progress in LLM agents has made tool use practical, but two challenges remain: evaluating agents in realistic environments and scaling them to long-horizon tasks with finite context. This presentation highlights two recent works that address these issues. MCP-Bench provides a realistic evaluation framework using 28 live MCP servers and 250 tools, testing schema understanding, multi-step planning, grounding, and cross-domain orchestration, and exposing major weaknesses in current frontier models. Meme(RL) introduces an indexed memory framework that keeps a compact summary in context while storing full past interactions externally for retrieval. Trained with reinforcement learning, it helps agents retain critical evidence, improve long-horizon performance, and reduce context usage."
 
 - title: "Nondeterminism in LLM Inference & Training-Rollout Mismatch"
   speaker: "Xinheng Ding"
@@ -53,6 +59,7 @@
   youtube_url: "https://www.youtube.com/watch?v=2BJaMRtIi4I"
   date: "2026-03-20"
   category: "Random Samples"
+  abstract: "LLM generation is not deterministic even when the temperature is set to zero. This issue is more pronounced in RL, where the training and rollout engines naturally operate with different batch sizes, kernel selections, and parallelization strategies. This training-rollout mismatch problem leads to suboptimal performance and training collapse, especially for MoE models. In this talk, we analyze why this happens and how to solve the problem from the system level by building deterministic GPU kernels."
 
 - title: "Evolutionary Arms Races Between LLMs in Core War"
   speaker: "Akarsh Kumar"
@@ -61,6 +68,7 @@
   youtube_url: "https://www.youtube.com/watch?v=ysmo0m1ZAmw"
   date: "2026-03-13"
   category: "Random Samples"
+  abstract: "Large language models are increasingly being used to evolve solutions to problems, inspired by biological evolution. Unlike biology, most LLM-evolution frameworks are static optimization problems, overlooking the open-ended adversarial dynamics of real-world evolutionary processes. Here, we study Digital Red Queen (DRQ), a simple self-play algorithm that embraces these Red Queen dynamics via continual adaptation to a changing objective. DRQ uses an LLM to evolve assembly-like programs, called warriors, which compete for control of a virtual machine in Core War, a Turing-complete environment studied in artificial life and connected to cybersecurity. Over many rounds, we observe that warriors become increasingly general. Interestingly, warriors also become less behaviorally diverse across independent runs, indicating a convergence pressure toward a general-purpose behavioral strategy, much like convergent evolution in nature."
 
 - title: "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models"
   speaker: "Qizheng Zhang"
@@ -69,6 +77,7 @@
   youtube_url: "https://www.youtube.com/watch?v=A3RKCKemnSg"
   date: "2026-03-06"
   category: "Random Samples"
+  abstract: "This talk presents Agentic Context Engineering (ACE), an upcoming CLR 2026 paper. ACE reframes context adaptation as a new medium of continual learning without weight updates, where agents evolve their own playbooks over time. Instead of repeatedly rewriting prompts or memories, which often leads to context collapse, ACE uses a structured generate-reflect-curate loop to incrementally accumulate, refine, and organize strategies based on agent execution feedback. This enables self-evolving agents that improve online, even without labeled supervision, while remaining efficient and stable under long contexts."
 
 - title: "Few-Shot Diffusion Language Models"
   speaker: "Tunyu Zhang"
@@ -77,6 +86,7 @@
   youtube_url: "https://www.youtube.com/watch?v=SFRcD-JMko4"
   date: "2026-02-27"
   category: "Random Samples"
+  abstract: "Diffusion large language models (DLLMs) can generate text quickly by predicting many tokens at once. However, they usually need many refinement steps to produce high-quality results, which reduces their speed advantage. In this talk, we introduce T3D, a framework that helps DLLMs work well with only a few steps. It is based on two main ideas: (1) trajectory self-distillation, where a smaller model learns directly from the full step-by-step outputs of a stronger teacher model, reducing the mismatch between training and actual use, and (2) direct discriminative optimization, a training method that pushes the model to choose clearer, more confident predictions. T3D outperforms other few-step methods on reasoning and code generation tasks, significantly closing the gap with full-step diffusion models."
 
 - title: "Instance-Adaptive Inference-Time Scaling with Calibrated Process Reward Models"
   speaker: "Young Jin Park"
