@@ -148,6 +148,7 @@
   youtube_url: "https://www.youtube.com/watch?v=uTieiYJ5RuI"
   date: "2025-01-10"
   category: "Random Samples"
+  abstract: "Preference tuning relies on high-quality human preference data, which is often expensive and time-consuming to gather. We introduce DrSow (Density Ratio of Strong over Weak), a cost-effective method that eliminates the reliance on human annotation by leveraging off-the-shelf LLMs for preference data annotation. DrSow uses the log-density ratio between a better-aligned and a less-aligned LLM as a reward signal. We evaluate DrSow across 221 different LLM pairs and empirically find a strong correlation between the performance gap of the paired models and the quality of the reward signal. We also introduce an end-to-end pipeline that customizes reward functions based on user query domains. With a pair of Mistral-7B models, DrSow achieves a RewardBench score of 82.6, outperforming the best trained reward functions from the same model class. Further, we preference-tune Llama-3-8B-Instruct using data annotated by DrSow, pushing it to achieve a 37.4% (+15.1%) win rate on ArenaHard and a 40.7% (+17.8%) win rate on length-controlled AlpacaEval 2.0."
 
 - title: "SDG_Hub: An Open-Source Toolkit for Synthetic Data Generation & LLM Customization"
   speaker: "Shivchander Sudalairaj & Abhishek Bhandwaldar"
