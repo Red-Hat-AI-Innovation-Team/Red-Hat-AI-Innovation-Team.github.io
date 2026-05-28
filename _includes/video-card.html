@@ -1,9 +1,18 @@
-{% if video.drive_file_id %}
+{% if video.embed_url %}
+{% assign _embed_src = video.embed_url %}
+{% elsif video.youtube_url contains "watch?v=" %}
+{% assign _vid_id = video.youtube_url | split: "v=" | last | split: "&" | first %}
+{% assign _embed_src = "https://www.youtube.com/embed/" | append: _vid_id %}
+{% elsif video.youtube_url contains "/live/" %}
+{% assign _vid_id = video.youtube_url | split: "/live/" | last | split: "?" | first %}
+{% assign _embed_src = "https://www.youtube.com/embed/" | append: _vid_id %}
+{% endif %}
+{% if video.youtube_url or video.embed_url %}
+<iframe width="{{ include.width | default: '100%' }}" height="{{ include.height | default: '200' }}" src="{{ _embed_src }}" frameborder="0" allowfullscreen></iframe>
+<p><strong><a href="{{ video.youtube_url | default: video.embed_url }}" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
+{% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
+{% elsif video.drive_file_id %}
 <iframe width="{{ include.width | default: '100%' }}" height="{{ include.height | default: '200' }}" src="https://drive.google.com/file/d/{{ video.drive_file_id }}/preview" frameborder="0" allowfullscreen></iframe>
 <p><strong><a href="https://drive.google.com/file/d/{{ video.drive_file_id }}/view" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
-{% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
-{% else %}
-<iframe width="{{ include.width | default: '100%' }}" height="{{ include.height | default: '200' }}" src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
-<p><strong><a href="{{ video.youtube_url }}" target="_blank">📹 {{ video.title }}</a></strong><br>👤 Speaker: {{ video.speaker }}
 {% if video.spotify_url %}<br>🎧 <a href="{{ video.spotify_url }}" class="spotify-link" target="_blank">Listen on Spotify</a>{% endif %}</p>
 {% endif %}
