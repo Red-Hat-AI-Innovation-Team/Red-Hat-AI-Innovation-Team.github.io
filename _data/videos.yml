@@ -113,6 +113,7 @@
   youtube_url: "https://www.youtube.com/watch?v=D1DjdsxjYrc"
   date: "2025-04-04"
   category: "Random Samples"
+  abstract: "Modern reasoning models often require long responses to think through problems before arriving at a final answer. However, this incurs high latency and significant GPU memory demands. We introduce a novel KV cache quantization algorithm: Subspace-orthogonal KV cache quantization (SQuat). Our method is training-free, requires no calibration data, runs on-the-fly, and is grounded in a theoretical framework we developed. Empirically, it reduces GPU peak memory by 2.17x to 2.82x, improves throughput by 2.45x to 3.60x, and outperforms existing training-free KV cache quantization methods."
 
 - title: "Probabilistic Inference Approach to Inference-Time Scaling of LLMs"
   speaker: "Isha Puri"
@@ -121,6 +122,7 @@
   youtube_url: "https://www.youtube.com/watch?v=cuMfbx3x2no"
   date: "2025-02-07"
   category: "Random Samples"
+  abstract: "Large language models have achieved significant performance gains via scaling up model sizes and data. However, recent evidence suggests diminishing returns from such approaches, motivating scaling the computation spent at inference time. Existing inference-time scaling methods, usually with reward models, cast the task as a search problem, which tends to be vulnerable to reward hacking. In this paper, we instead cast inference-time scaling as a probabilistic inference task and leverage sampling-based techniques to explore the typical set of the state distribution. We propose a novel inference-time scaling approach by adapting particle-based Monte Carlo methods to this task. Our empirical evaluation demonstrates that our methods have a 4 to 16x better scaling rate over deterministic search counterparts on various challenging mathematical reasoning tasks. Using our approach, Qwen2.5-Math-1.5B-Instruct can surpass GPT-4o accuracy in only 4 rollouts, while Qwen2.5-Math-7B-Instruct scales to o1 level accuracy in only 32 rollouts."
 
 - title: "Practitioner's Guide to Instruction Tuning"
   speaker: "Aldo Pareja"
@@ -129,6 +131,7 @@
   youtube_url: "https://www.youtube.com/watch?v=Uk21FWwhK7M"
   date: "2025-01-31"
   category: "Random Samples"
+  abstract: "The rise of large language models has created a significant disparity: industrial labs can effectively fine-tune LLMs, while individual developers and small organizations face barriers due to limited resources. We present a comprehensive study on supervised fine-tuning of LLMs using instruction-tuning datasets spanning diverse knowledge domains and skills, focusing on small-sized LLMs (3B to 7B parameters). Key insights include: larger batch sizes paired with lower learning rates lead to improved performance; early-stage training dynamics such as lower gradient norms and higher loss values are strong indicators of better final performance, enabling early termination of sub-optimal runs; certain simplifications in hyperparameters like warmup steps and learning rate schedules do not compromise performance; and no significant difference was observed between phased and stacked training strategies, but stacked training is simpler and more sample efficient."
 
 - title: "Recent Advances in Bayesian Uncertainty Estimation for LLMs"
   speaker: "Haizhou Shi"
@@ -136,6 +139,7 @@
   youtube_url: "https://www.youtube.com/watch?v=4zuScUet-y4"
   date: "2025-01-17"
   category: "Random Samples"
+  abstract: "Recent advances in uncertainty estimation for Large Language Models during downstream adaptation have addressed key challenges of reliability and simplicity. However, existing Bayesian methods typically require multiple sampling iterations during inference, creating significant efficiency issues. We investigate eliminating the need for test-time sampling by distilling aligned confidence from a Bayesian LLM into a non-Bayesian student LLM, minimizing the divergence between their predictive distributions. This simple yet effective approach achieves N-times more efficient uncertainty estimation during testing, where N is the number of samples traditionally required. Our extensive experiments demonstrate that uncertainty estimation capabilities on training data can successfully generalize to unseen test data through our distillation technique, consistently producing results comparable to or better than state-of-the-art Bayesian LLMs."
 
 - title: "Scaling Preference Alignment: Overcome Human Data Bottlenecks with Density Ratios from Open-source LLMs"
   speaker: "GX Xu"
