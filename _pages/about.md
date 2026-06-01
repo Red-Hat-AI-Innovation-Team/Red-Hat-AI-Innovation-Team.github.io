@@ -174,6 +174,26 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://colehurwitz.github.io/" target="_blank">Cole Hurwitz</a>
       </div>
     </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/xi.jpg" class="portfolio__link glightbox" data-glightbox='title: Xi Yang; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/xi.jpg" data-src="/images/about/Headshots/xi.jpg" class="portfolio__image lazy" alt="Picture of Xi Yang">
+        </a>
+        <a href="https://www.linkedin.com/in/xi-yang-phd2/" target="_blank">Xi Yang</a>
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/ari.jpg" class="portfolio__link glightbox" data-glightbox='title: Ari Aye; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/ari.jpg" data-src="/images/about/Headshots/ari.jpg" class="portfolio__image lazy" alt="Picture of Ari Aye">
+        </a>
+        <a href="https://lambdabaa.com/" target="_blank">Ari Aye</a>
+      </div>
+    </div>
   </div>
 </div>
 
