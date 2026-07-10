@@ -1,0 +1,99 @@
+<script src="{{ site.baseurl }}/js/lunr.min.js"></script>
+<script>
+(function () {
+  var index, store;
+  var searchInput = document.getElementById('search-input');
+  var searchResults = document.getElementById('search-results');
+  var debounceTimer;
+
+  function init() {
+    fetch('{{ site.baseurl }}/search-index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        store = data;
+        index = lunr(function () {
+          this.ref('idx');
+          this.field('title', { boost: 10 });
+          this.field('content');
+          this.field('tags', { boost: 5 });
+          this.field('speaker', { boost: 3 });
+          data.forEach(function (doc, i) {
+            doc.idx = i;
+            if (doc.tags) doc.tags = doc.tags.join(' ');
+            this.add(doc);
+          }, this);
+        });
+        var params = new URLSearchParams(window.location.search);
+        var q = params.get('q');
+        if (q) {
+          searchInput.value = q;
+          performSearch(q);
+        }
+      });
+  }
+
+  function performSearch(query) {
+    if (!index) return;
+    searchResults.innerHTML = '';
+    if (!query || query.length < 2) {
+      searchResults.innerHTML = '<p class="search-empty">Type at least 2 characters to search.</p>';
+      return;
+    }
+    var results;
+    try {
+      results = index.search(query + '~1');
+    } catch (e) {
+      results = index.search(query);
+    }
+    if (results.length === 0) {
+      searchResults.innerHTML = '<p class="search-empty">No results found for "<strong>' + escapeHtml(query) + '</strong>".</p>';
+      return;
+    }
+    var heading = document.createElement('p');
+    heading.className = 'search-count';
+    heading.innerHTML = results.length + ' result' + (results.length === 1 ? '' : 's') + ' for "<strong>' + escapeHtml(query) + '</strong>"';
+    searchResults.appendChild(heading);
+    results.forEach(function (r) {
+      var item = store[parseInt(r.ref)];
+      if (!item) return;
+      var el = document.createElement('div');
+      el.className = 'search-result';
+      var badge = '<span class="search-badge search-badge--' + item.type + '">' + capitalize(item.type) + '</span>';
+      var title = '<a href="' + escapeHtml(item.url) + '" class="search-result__title">' + escapeHtml(item.title) + '</a>';
+      var meta = '';
+      if (item.date) meta += '<span class="search-result__date">' + item.date + '</span>';
+      if (item.speaker) meta += '<span class="search-result__speaker">' + escapeHtml(item.speaker) + '</span>';
+      var excerpt = item.content ? item.content.substring(0, 200) + '...' : '';
+      el.innerHTML = '<div class="search-result__header">' + badge + title + '</div>' +
+        (meta ? '<div class="search-result__meta">' + meta + '</div>' : '') +
+        '<p class="search-result__excerpt">' + escapeHtml(excerpt) + '</p>';
+      searchResults.appendChild(el);
+    });
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function capitalize(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+
+  searchInput.addEventListener('input', function () {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function () {
+      performSearch(searchInput.value.trim());
+    }, 300);
+  });
+
+  searchInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      clearTimeout(debounceTimer);
+      performSearch(searchInput.value.trim());
+    }
+  });
+
+  init();
+})();
+</script>
