@@ -21,7 +21,7 @@ permalink: /tags/
             {% for item in (0..site.tags.size) %}
               {% unless forloop.last %}
                 {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-                <li class="tag__item"><a href="#{{ this_word | cgi_escape }}" class="tag__link">{{ this_word }}</a></li>
+                <li class="tag__item"><a href="{{ site.baseurl }}/tags/{{ this_word | slugify }}/" class="tag__link">{{ this_word }} ({{ site.tags[this_word].size }})</a></li>
               {% endunless %}
             {% endfor %}
           </ul>
@@ -43,7 +43,7 @@ permalink: /tags/
           <div class="col col-12">
             
             <div class="tag__info">
-              <h2 class="tag__name" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+              <h2 class="tag__name" id="{{ this_word | cgi_escape }}"><a href="{{ site.baseurl }}/tags/{{ this_word | slugify }}/">{{ this_word }}</a></h2>
               <div class="tag__counter">
                 <span>{{ site.tags[this_word].size }}</span>
                 <small>{% if site.tags[page.tag].size < 2 %}Article{% else %}Articles{% endif %}</small>
