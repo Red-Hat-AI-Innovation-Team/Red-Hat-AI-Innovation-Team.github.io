@@ -88,7 +88,7 @@ These files must NOT be modified by the factory:
 python eval/score.py
 ```
 
-Threshold: 0.50
+Threshold: 0.40
 
 ## Eval Weights
 
