@@ -7,6 +7,9 @@
 - **project_type**: website
 - **description**: Official website for the Red Hat AI Innovation Team, built with Jekyll and deployed via GitHub Pages.
 
+### Goal
+Improve site quality: ensure clean builds, valid HTML, fresh content, and a well-structured Jekyll architecture.
+
 ### Build
 
 ```bash
@@ -79,9 +82,18 @@ These files must NOT be modified by the factory:
 - `CNAME`
 - `README.md`
 
+## Project Eval
+
+```bash
+python eval/score.py
+```
+
+Threshold: 0.50
+
 ## Eval Weights
 
 | Component | Weight |
 |-----------|--------|
-| hygiene   | 0.50   |
-| growth    | 0.50   |
+| hygiene   | 0.20   |
+| growth    | 0.10   |
+| project   | 0.70   |
