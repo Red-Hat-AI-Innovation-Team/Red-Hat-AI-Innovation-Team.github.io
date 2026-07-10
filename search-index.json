@@ -1,0 +1,47 @@
+---
+layout: null
+---
+[
+  {% assign items = "" | split: "" %}
+
+  {% for post in site.posts %}
+    {% capture item %}{
+      "title": {{ post.title | jsonify }},
+      "url": "{{ post.url | relative_url }}",
+      "date": "{{ post.date | date: '%Y-%m-%d' }}",
+      "type": "post",
+      "tags": {{ post.tags | jsonify }},
+      "content": {{ post.content | strip_html | truncatewords: 200 | jsonify }}
+    }{% endcapture %}
+    {% assign items = items | push: item %}
+  {% endfor %}
+
+  {% for page in site.pages %}
+    {% if page.title and page.layout == "page" %}
+      {% capture item %}{
+        "title": {{ page.title | jsonify }},
+        "url": "{{ page.url | relative_url }}",
+        "date": "",
+        "type": "page",
+        "tags": [],
+        "content": {{ page.content | strip_html | truncatewords: 200 | jsonify }}
+      }{% endcapture %}
+      {% assign items = items | push: item %}
+    {% endif %}
+  {% endfor %}
+
+  {% for video in site.data.videos %}
+    {% capture item %}{
+      "title": {{ video.title | jsonify }},
+      "url": "{{ video.youtube_url }}",
+      "date": "{{ video.date }}",
+      "type": "video",
+      "tags": [],
+      "content": {{ video.abstract | default: "" | truncatewords: 200 | jsonify }},
+      "speaker": {{ video.speaker | jsonify }}
+    }{% endcapture %}
+    {% assign items = items | push: item %}
+  {% endfor %}
+
+  {{ items | join: "," }}
+]
