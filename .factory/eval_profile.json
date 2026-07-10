@@ -1,0 +1,62 @@
+{
+  "project_type": "website",
+  "dimensions": [
+    {
+      "name": "jekyll_build",
+      "command": "bundle exec jekyll b -d _site",
+      "weight": 0.25,
+      "parser": "exit_code",
+      "regex_pattern": null,
+      "description": "Run Jekyll build and verify it succeeds",
+      "source": "explicit"
+    },
+    {
+      "name": "html_validation",
+      "command": "bundle exec htmlproofer _site --disable-external --ignore-urls '/^http:\\/\\/127.0.0.1/,/^http:\\/\\/0.0.0.0/,/^http:\\/\\/localhost/' --ignore-empty-alt --ignore-missing-alt",
+      "weight": 0.20,
+      "parser": "exit_code",
+      "regex_pattern": null,
+      "description": "Validate generated HTML with htmlproofer",
+      "source": "explicit"
+    },
+    {
+      "name": "config_parser",
+      "command": "(inline)",
+      "weight": 0.05,
+      "parser": "exit_code",
+      "regex_pattern": null,
+      "description": "Verify _config.yml is valid YAML with required keys (baseurl, url, markdown, plugins)",
+      "source": "explicit"
+    },
+    {
+      "name": "capability_surface",
+      "command": "(inline)",
+      "weight": 0.20,
+      "parser": "heuristic",
+      "regex_pattern": null,
+      "description": "Count pages, posts, data files, layouts, and includes — score = min(1.0, total / 50)",
+      "source": "explicit"
+    },
+    {
+      "name": "content_freshness",
+      "command": "(inline)",
+      "weight": 0.15,
+      "parser": "heuristic",
+      "regex_pattern": null,
+      "description": "Score based on recency of newest blog post (90d=1.0, 180d=0.7, 365d=0.4, older=0.2)",
+      "source": "explicit"
+    },
+    {
+      "name": "architecture",
+      "command": "(inline)",
+      "weight": 0.15,
+      "parser": "heuristic",
+      "regex_pattern": null,
+      "description": "Check for proper Jekyll structure — _layouts, _includes, _data, _posts, _sass directories with content",
+      "source": "explicit"
+    }
+  ],
+  "tier": "explicit",
+  "confidence": 1.0,
+  "human_reviewed": false
+}
