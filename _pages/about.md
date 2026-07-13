@@ -207,7 +207,11 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
 
     <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
-        Harrison Stropkay
+        <a href="/images/about/Headshots/harrison.png" class="portfolio__link glightbox" data-glightbox='title: Harrison Stropkay; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/harrison.png" data-src="/images/about/Headshots/harrison.png" class="portfolio__image lazy" alt="Picture of Harrison Stropkay">
+        </a>
+        <a href="https://github.com/harrisonstropkay" target="_blank">Harrison Stropkay</a>
       </div>
     </div>
 
