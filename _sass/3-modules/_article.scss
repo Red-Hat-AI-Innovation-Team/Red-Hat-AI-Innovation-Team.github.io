@@ -235,3 +235,9 @@
 .video-card .spotify-link:hover {
   text-decoration: underline;
 }
+
+.video-card__date {
+  font-size: 0.85em;
+  color: var(--heading-font-color, #777);
+  opacity: 0.7;
+}
