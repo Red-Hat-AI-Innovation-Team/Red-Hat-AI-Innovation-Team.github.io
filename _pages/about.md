@@ -85,15 +85,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
       </div>
     </div>
 
-    <div class="col col-3 col-d-6 col-t-12">
-      <div class="team-member">
-        <a href="/images/about/Headshots/ligong.jpg" class="portfolio__link glightbox" data-glightbox='title: Ligong Han; description: ; descPosition: bottom;'>
-          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-          <img src="/images/about/Headshots/ligong.jpg" data-src="/images/about/Headshots/ligong.jpg" class="portfolio__image lazy" alt="Picture of Ligong Han">
-        </a>
-        <a href="https://phymhan.github.io" target="_blank">Ligong Han</a>
-      </div>
-    </div>
+
 
         <div class="col col-3 col-d-6 col-t-12">
       <div class="team-member">
@@ -292,6 +284,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/wenlong.jpg" data-src="/images/about/Headshots/wenlong.jpg" class="portfolio__image lazy" alt="Picture of Wenlong Zhao">
         </a>
         <a href="https://wenlongzhao094.github.io" target="_blank">Wenlong Zhao</a>,<br>UMass Amherst
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/ligong.jpg" class="portfolio__link glightbox" data-glightbox='title: Ligong Han; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/ligong.jpg" data-src="/images/about/Headshots/ligong.jpg" class="portfolio__image lazy" alt="Picture of Ligong Han">
+        </a>
+        <a href="https://phymhan.github.io" target="_blank">Ligong Han</a>
       </div>
     </div>
 
