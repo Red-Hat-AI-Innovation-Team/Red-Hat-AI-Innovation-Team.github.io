@@ -128,8 +128,8 @@ document.addEventListener("DOMContentLoaded", function() {
   imageLink = document.querySelectorAll(".page__content a img, .post__content a img");
 
   if (imageLink) {
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
-    for (var i = 0; i < imageLink.length; i++) imageLink[i].classList.add("no-lightense");
+    for (let i = 0; i < imageLink.length; i++) imageLink[i].parentNode.classList.add("image-link");
+    for (let i = 0; i < imageLink.length; i++) imageLink[i].classList.add("no-lightense");
   }
 
   if (lightense) {
