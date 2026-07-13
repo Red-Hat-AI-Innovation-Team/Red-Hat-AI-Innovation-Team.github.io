@@ -1,3 +1,11 @@
+- title: "Adaptive Soft-Thresholding for Hardware-Aligned Model Compression"
+  speaker: "Ayoub Ghriss"
+  youtube_id: "XO6OesT9_3o"
+  youtube_url: "https://www.youtube.com/watch?v=XO6OesT9_3o"
+  date: "2026-07-10"
+  category: "Random Samples"
+  abstract: "This talk presents AdaSoft, an adaptive soft-thresholding algorithm that treats compression as a single constrained-optimization problem: a dynamic L1 penalty whose strength is tuned online so that a target sparsity or bit-budget emerges during training, with convergence guarantees for both the weights and the regularization trajectory. Because the constraint is defined over hardware-aligned structures (2:4, fan-in, whole-channel), the same formulation spans unstructured and structured sparse training, one-shot 2:4 pruning, and quantization. Empirically, AdaSoft matches or beats RigL/SRiGL on common convolutional networks and outperforms SparseGPT on 2:4 LLM one-shot pruning, relying solely on first-order gradient information, with an open-source structured-sparsity specification (S3 framework) and GPU-efficient implementations."
+
 - title: "Rounding to Remember: How Weight-Storage Precision Controls Catastrophic Forgetting"
   speaker: "Oleg Silkin"
   youtube_id: "evsLCJILRmM"
