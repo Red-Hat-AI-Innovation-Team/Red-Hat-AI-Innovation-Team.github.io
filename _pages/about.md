@@ -193,7 +193,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/Headshots/neha.jpg" data-src="/images/about/Headshots/neha.jpg" class="portfolio__image lazy" alt="Picture of Neha Malepati">
         </a>
-        <a href="http://nehamalepati.com/" target="_blank">Neha Malepati</a>
+        <a href="https://nehamalepati.com/" target="_blank">Neha Malepati</a>
       </div>
     </div>
 
@@ -243,7 +243,7 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
           <img src="/images/about/Headshots/aditi.png" data-src="/images/about/Headshots/aditi.png" class="portfolio__image lazy" alt="Picture of Aditi Saluja">
         </a>
-        <a href="http://linkedin.com/in/aditi-saluja" target="_blank">Aditi Saluja</a>,<br>Red Hat
+        <a href="https://linkedin.com/in/aditi-saluja" target="_blank">Aditi Saluja</a>,<br>Red Hat
       </div>
     </div>
 
