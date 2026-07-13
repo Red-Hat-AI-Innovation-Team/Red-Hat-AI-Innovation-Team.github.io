@@ -194,6 +194,32 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
         <a href="https://lambdabaa.com/" target="_blank">Ari Aye</a>
       </div>
     </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/neha.jpg" class="portfolio__link glightbox" data-glightbox='title: Neha Malepati; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/neha.jpg" data-src="/images/about/Headshots/neha.jpg" class="portfolio__image lazy" alt="Picture of Neha Malepati">
+        </a>
+        <a href="http://nehamalepati.com/" target="_blank">Neha Malepati</a>
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        Harrison Stropkay
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/xingyu.jpg" class="portfolio__link glightbox" data-glightbox='title: Xingyu Liu; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/xingyu.jpg" data-src="/images/about/Headshots/xingyu.jpg" class="portfolio__image lazy" alt="Picture of Xingyu Liu">
+        </a>
+        <a href="https://www.linkedin.com/in/xingyu-liu-393823332/" target="_blank">Xingyu Liu</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -212,6 +238,16 @@ Our goal is to empower individuals to collaborate in advancing the future of LLM
           <img src="/images/about/Headshots/luke.jpeg" data-src="/images/about/Headshots/luke.jpeg" class="portfolio__image lazy" alt="Picture of Luke Inglis">
         </a>
         <a href="https://www.linkedin.com/in/luke-inglis/" target="_blank">Luke Inglis</a>,<br>Red Hat
+      </div>
+    </div>
+
+    <div class="col col-3 col-d-6 col-t-12">
+      <div class="team-member">
+        <a href="/images/about/Headshots/aditi.png" class="portfolio__link glightbox" data-glightbox='title: Aditi Saluja; description: ; descPosition: bottom;'>
+          <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+          <img src="/images/about/Headshots/aditi.png" data-src="/images/about/Headshots/aditi.png" class="portfolio__image lazy" alt="Picture of Aditi Saluja">
+        </a>
+        <a href="http://linkedin.com/in/aditi-saluja" target="_blank">Aditi Saluja</a>,<br>Red Hat
       </div>
     </div>
 
