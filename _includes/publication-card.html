@@ -1,0 +1,11 @@
+<div class="publication-card">
+<h3><a href="{{ include.pub.url }}" target="_blank" rel="noopener">{{ include.pub.title }}</a></h3>
+<strong>Authors:</strong> {% for author in include.pub.authors %}{% if author.scholar_url %}<a href="{{ author.scholar_url }}" target="_blank">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
+<details>
+  <summary>View Abstract</summary>
+  {{ include.pub.abstract }}
+</details>
+<strong>{% for link in include.pub.links %}{% if forloop.first %}{% else %} | {% endif %}<a href="{{ link.url }}">{{ link.icon }} {{ link.label }}</a>{% endfor %}</strong><br>
+<strong>Date:</strong> {{ include.pub.date }}{% if include.pub.conference %}<br>
+<span class="conference-badge">{{ include.pub.conference }}</span>{% endif %}
+</div>
