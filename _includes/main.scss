@@ -40,6 +40,7 @@
 
 
 @import '0-settings/variables';
+@import '0-settings/tokens';
 @import '0-settings/color-scheme';
 @import '0-settings/mixins';
 @import '0-settings/helpers';
@@ -174,16 +175,16 @@
 
   .nav-card {
     text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     background: transparent;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    box-shadow: $shadow-md;
+    border-radius: 8px;
     overflow: hidden;
-    
+
     &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-      
+      transform: translateY(-3px);
+      box-shadow: $shadow-lg;
+
       img {
         transform: scale(1.02);
       }
@@ -215,18 +216,18 @@
 .videos.section {
   .video-card-wrapper {
     border: 1px solid var(--border-color);
-    border-radius: 12px;
+    border-radius: 8px;
     background: var(--background-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: $shadow-md;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     overflow: hidden;
     height: 100%;
     display: flex;
     flex-direction: column;
-    
+
     &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      transform: translateY(-3px);
+      box-shadow: $shadow-lg;
     }
   }
   

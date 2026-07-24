@@ -1,46 +1,46 @@
 /* Color Scheme */
 
 :root {
-  --brand-color: #5e3aee;
+  --brand-color: #E00;
   --white: #fff;
-  --light-gray: #f0f0f0;
-  --light-blue: #f8f6fb;
-  --blue-gray: #716f8f;
-  --gray: #9e9e9e;
-  --dark: #0c101a;
-  --dark-blue: #1e2740;
+  --light-gray: #f5f5f5;
+  --light-blue: #f9f9f9;
+  --blue-gray: #6a6e73;
+  --gray: #8a8d90;
+  --dark: #151515;
+  --dark-blue: #1a1a1a;
 
   --background-color: var(--white);
   --background-alt-color: var(--light-blue);
-  
-  --text-color: var(--dark-blue);
-  --text-alt-color: var(--blue-gray);
-  
+
+  --text-color: #333;
+  --text-alt-color: #6a6e73;
+
   --heading-font-color: var(--dark-blue);
 
-  --link-color: var(--dark-blue);
-  --link-color-hover: var(--dark-blue);
+  --link-color: #0066CC;
+  --link-color-hover: #004499;
 
   --button-color: var(--white);
   --button-background-color: var(--brand-color);
-  --button-background-hover: #4f31c7;
+  --button-background-hover: #A30000;
 
-  --border-color: var(--light-blue);
-  --border-color-alt: var(--light-blue);
+  --border-color: #e0e0e0;
+  --border-color-alt: #f0f0f0;
 
   --th-color: var(--light-gray);
   --tr-color: var(--light-gray);
 
   --syntax-highlighting-background: #f3f3f3;
-  
+
   /* Article specific colors */
   --article-secondary-text: #666;
   --article-border: #e0e0e0;
   --article-background: #fafbfc;
   --article-background-alt: #f5f7fa;
-  --article-link-blue: #2a5d9f;
+  --article-link-blue: #0066CC;
   --article-spotify-green: #1DB954;
-  
+
   /* Syntax highlighting colors */
   --syntax-comment: #998;
   --syntax-error: #a61717;
@@ -58,43 +58,43 @@
 }
 
 :root[dark] {
-  --brand-color: #5e3aee;
+  --brand-color: #FF4D4D;
   --white: #fff;
   --light-gray: #f0f0f0;
   --gray: #9e9e9e;
-  --dark: #111016;
+  --dark: #1a1a1a;
 
   --background-color: var(--dark);
-  --background-alt-color: #18181d;
-  
-  --text-color: var(--gray);
-  --text-alt-color: var(--gray);
-  
-  --heading-font-color: var(--light-gray);
+  --background-alt-color: #252525;
 
-  --link-color: var(--light-gray);
-  --link-color-hover: var(--light-gray);
+  --text-color: #e0e0e0;
+  --text-alt-color: #a0a0a0;
+
+  --heading-font-color: #f0f0f0;
+
+  --link-color: #6DB3F2;
+  --link-color-hover: #8DC6FF;
 
   --button-color: var(--white);
   --button-background-color: var(--brand-color);
-  --button-background-hover: #4f31c7;
+  --button-background-hover: #FF6666;
 
-  --border-color: #252629;
-  --border-color-alt: #080b12;
+  --border-color: #333;
+  --border-color-alt: #2a2a2a;
 
-  --th-color: #18181d;;
-  --tr-color: #080b12;
+  --th-color: #252525;
+  --tr-color: #2a2a2a;
 
-  --syntax-highlighting-background: #080b12;
-  
+  --syntax-highlighting-background: #252525;
+
   /* Article specific colors - dark mode */
   --article-secondary-text: var(--gray);
   --article-border: var(--border-color);
   --article-background: var(--background-alt-color);
-  --article-background-alt: #1a1a20;
-  --article-link-blue: #7aa3d6;
+  --article-background-alt: #2a2a2a;
+  --article-link-blue: #6DB3F2;
   --article-spotify-green: #1ed760;
-  
+
   /* Syntax highlighting colors - dark mode */
   --syntax-comment: #7c7c7c;
   --syntax-error: #ff6b6b;
