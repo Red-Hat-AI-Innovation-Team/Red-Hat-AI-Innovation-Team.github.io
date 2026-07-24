@@ -1,0 +1,9 @@
+<div class="col col-3 col-d-6 col-t-12">
+  <div class="team-member">
+    <a href="{{ include.member.image }}" class="portfolio__link glightbox" data-glightbox='title: {{ include.member.name }}; description: ; descPosition: bottom;'>
+      <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+      <img src="{{ include.member.image }}" data-src="{{ include.member.image }}" class="portfolio__image lazy" alt="Picture of {{ include.member.name }}">
+    </a>
+    {% if include.member.url %}<a href="{{ include.member.url }}" target="_blank">{{ include.member.name }}</a>{% else %}{{ include.member.name }}{% endif %}{% if include.member.affiliation %},<br>{{ include.member.affiliation }}{% endif %}
+  </div>
+</div>
