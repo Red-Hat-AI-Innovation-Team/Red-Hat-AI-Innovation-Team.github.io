@@ -1,0 +1,183 @@
+members:
+  - name: Akash Srivastava
+    image: /images/about/Headshots/akash.jpg
+    url: https://akashgit.github.io
+
+  - name: Kai Xu
+    image: /images/about/Headshots/kai-with-cookie-sq.png
+    url: https://xuk.ai
+
+  - name: Abhishek Bhandwaldar
+    image: /images/about/Headshots/abhishek.jpg
+    url: https://scholar.google.com/citations?user=lV0gYnkAAAAJ&hl=en
+
+  - name: Hao Wang
+    image: /images/about/Headshots/hao.jpg
+    url: https://haowang94.github.io
+
+  - name: Shivchander Sudalairaj
+    image: /images/about/Headshots/shivchander.jpg
+    url: https://scholar.google.com/citations?user=O71amfMAAAAJ&hl=en
+
+  - name: Guangxuan Xu
+    image: /images/about/Headshots/gx.jpg
+    url: https://scholar.google.com/citations?user=ohsEWqsAAAAJ&hl=en
+
+  - name: Mustafa Eyceoz
+    image: /images/about/Headshots/mustafa.jpg
+    url: https://www.linkedin.com/in/mustafa-eyceoz
+
+  - name: Giorgio Giannone
+    image: /images/about/Headshots/giorgio.jpg
+    url: https://georgosgeorgos.github.io/
+
+  - name: Oleg Silkin
+    image: /images/about/Headshots/oleg.jpeg
+    url: https://www.olegsilkin.com/
+
+  - name: Eshwar Sivaramakrishnan
+    image: /images/about/Headshots/eshwar.jpg
+    url: https://github.com/eshwarprasadS
+
+  - name: Rohan Awhad
+    image: /images/about/Headshots/rohan.jpg
+    url: https://x.com/rohanawhad
+
+  - name: Mihir Athale
+    image: /images/about/Headshots/mihir.png
+    url: https://www.linkedin.com/in/mihirathale
+
+  - name: Yi Zheng
+    image: /images/about/Headshots/yi.jpeg
+    url: https://www.linkedin.com/in/yz728/
+
+  - name: Shabana Baig
+    image: /images/about/Headshots/shabana.jpeg
+    url: https://www.linkedin.com/in/shabana-baig-518036111/
+
+  - name: Cole Hurwitz
+    image: /images/about/Headshots/cole.png
+    url: https://colehurwitz.github.io/
+
+  - name: Xi Yang
+    image: /images/about/Headshots/xi.jpg
+    url: https://www.linkedin.com/in/xi-yang-phd2/
+
+  - name: Ari Aye
+    image: /images/about/Headshots/ari.jpg
+    url: https://lambdabaa.com/
+
+  - name: Neha Malepati
+    image: /images/about/Headshots/neha.jpg
+    url: https://nehamalepati.com/
+
+  - name: Harrison Stropkay
+    image: /images/about/Headshots/harrison.png
+    url: https://github.com/harrisonstropkay
+
+  - name: Xingyu Liu
+    image: /images/about/Headshots/xingyu.jpg
+    url: https://www.linkedin.com/in/xingyu-liu-393823332/
+
+collaborators:
+  - name: Luke Inglis
+    image: /images/about/Headshots/luke.jpeg
+    url: https://www.linkedin.com/in/luke-inglis/
+    affiliation: Red Hat
+
+  - name: Aditi Saluja
+    image: /images/about/Headshots/aditi.png
+    url: https://linkedin.com/in/aditi-saluja
+    affiliation: Red Hat
+
+  - name: Aldo Pareja
+    image: /images/about/Headshots/aldo.jpg
+    url: https://scholar.google.com/citations?user=Qpl3KlIAAAAJ&hl=en
+    affiliation: Stealth startup
+
+  - name: Krishnateja Killamsetty
+    image: /images/about/Headshots/krishnateja.jpg
+    url: https://scholar.google.com/citations?user=cHDE-2YAAAAJ&hl=en
+    affiliation: IBM Research
+
+  - name: Isha Puri
+    image: /images/about/Headshots/isha.jpg
+    url: https://ishapuri.github.io
+    affiliation: MIT
+
+  - name: Wenlong Zhao
+    image: /images/about/Headshots/wenlong.jpg
+    url: https://wenlongzhao094.github.io
+    affiliation: UMass Amherst
+
+  - name: Ligong Han
+    image: /images/about/Headshots/ligong.jpg
+    url: https://phymhan.github.io
+
+  - name: Nikhil Nayak
+    image: /images/about/Headshots/nikhil.jpeg
+    url: https://www.linkedin.com/in/nikhil-na
+
+  - name: Shuhang Lin
+    image: /images/about/Headshots/shuhang.jpg
+    url: https://www.linkedin.com/in/shuhang-lin-818856198/
+    affiliation: Rutgers University
+
+  - name: Seungwook Han
+    image: /images/about/Headshots/seungwook.jpg
+    url: https://blackswhan.com
+    affiliation: MIT
+
+  - name: Zhang-Wei Hong
+    image: /images/about/Headshots/zhang-wei.png
+    url: https://williamd4112.github.io
+    affiliation: MIT
+
+  - name: Amin Heyrani Nobari
+    image: /images/about/Headshots/amin.jpg
+    url: https://engineering.mit.edu/fellows/amin-heyrani-nobari/
+    affiliation: MIT
+
+  - name: Kaveh Alimohammadi
+    image: /images/about/Headshots/kaveh.jpeg
+    url: https://kavehalim.github.io
+    affiliation: MIT
+
+  - name: Young Jin Park
+    image: /images/about/Headshots/youngjin.jpg
+    url: https://young-j-park.github.io/
+    affiliation: MIT
+
+  - name: Annie Clare Doris
+    image: /images/about/Headshots/annie.png
+    affiliation: MIT
+
+  - name: Lyle Regenweter
+    image: /images/about/Headshots/lyle.jpg
+    url: https://design.mit.edu/people/profile/lyle-regenwetter
+    affiliation: MIT
+
+  - name: Locke Cai
+    image: /images/about/Headshots/locke.jpg
+    url: https://scholar.google.com/citations?user=wqbftE0AAAAJ
+    affiliation: MIT
+
+  - name: Faez Ahmed
+    image: /images/about/Headshots/faez.jpg
+    url: https://decode.mit.edu
+    affiliation: MIT
+
+  - name: Navid Azizan
+    image: /images/about/Headshots/navid.jpg
+    url: https://azizan.mit.edu
+    affiliation: MIT
+
+  - name: Yoon Kim
+    image: /images/about/Headshots/yoon.jpg
+    url: https://people.csail.mit.edu/yoonkim/
+    affiliation: MIT
+
+  - name: Haode Qi
+    image: /images/about/Headshots/haode.jpeg
+    url: https://www.linkedin.com/in/haode-qi-a54a0357/
+    affiliation: IBM

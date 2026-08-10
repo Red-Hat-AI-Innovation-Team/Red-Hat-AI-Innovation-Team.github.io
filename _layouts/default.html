@@ -5,6 +5,8 @@
 
 <body>
 
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
@@ -12,12 +14,12 @@
   {% include header.html %}
 
   <!-- begin content -->
-  <main class="content" aria-label="Content">
+  <main id="main-content" class="content" aria-label="Content">
     {{ content }}
   </main>
   <!-- end content -->
 
-  <div class="top" title="Top" aria-label="Scroll to top"><i class="ion ion-ios-arrow-round-up"></i></div>
+  <button type="button" class="top" aria-label="Scroll to top"><i class="ion ion-ios-arrow-round-up"></i></button>
 
   {% include footer.html %}
 

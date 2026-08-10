@@ -6,6 +6,7 @@
   category: "Random Samples"
   abstract: "SWE-bench is the standard evaluation suite for coding agents, but it covers only 12 Python repositories, each requiring hand-written environment specifications. SWE-benchify is an open-source tool that automatically transforms arbitrary GitHub repositories into SWE-bench-compatible benchmarks across Python, Go, Java, and Rust. It operates in two modes: mining real pull requests and synthesizing realistic bug instances behind an information firewall that reveals only behavioral symptoms. Validated against SWE-bench's own repositories, it achieves functional equivalence and correct model ranking, enabling the community to build evaluation datasets at scale without manual curation."
 
+
 - title: "Policy-Driven Agentic Red-teaming"
   speaker: "Muneeza Azmat"
   youtube_id: "WkTt_CMHirk"
