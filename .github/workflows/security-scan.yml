@@ -1,0 +1,32 @@
+# Build-chain vulnerability check for the homepage. The Gemfile has no
+# committed lock, so the pages-deploy workflow resolves fresh gems on
+# every build; this job resolves the same way, then checks the result
+# against osv.dev. Runs on PRs, pushes to main, and daily so advisories
+# published after the last deploy still surface.
+name: security-scan
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '23 6 * * *'   # daily 06:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gems:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: ruby/setup-ruby@e1bd6146574da5e0795075b5319b300edb30c5b0  # v1.333.0
+        with:
+          ruby-version: 3.3
+      - name: resolve the gem set the deploy would use
+        run: bundle lock
+      - uses: google/osv-scanner-action/osv-scanner-action@b1d267aea5211fa648d9d442fa64b90dbdcbdd36  # v2.7.0
+        with:
+          scan-args: |-
+            --lockfile=Gemfile.lock
+            --format=table

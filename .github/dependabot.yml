@@ -1,0 +1,18 @@
+# Dependabot for the homepage build chain. The site is static HTML on
+# GitHub Pages, so the only software that can carry a vulnerability is
+# what runs at BUILD time (jekyll + plugins, html-proofer) and the
+# Actions that run it. Gem updates need a committed Gemfile.lock to be
+# meaningful; see workflows/security-scan.yml for the lock step.
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies", "security"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies"]
